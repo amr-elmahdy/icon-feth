@@ -1,12 +1,18 @@
 # Failed Icons
 
-Generated: 2026-09-10T17:56:28.586Z
+Generated: 2026-09-10T18:06:57.814Z
 
 | Icon | Reason |
 |------|--------|
 | `scheme` | Not found in any source |
 | `lisp` | Not found in any source |
 | `assembly` | Not found in any source |
+| `verilog` | Not found in any source |
+| `vhdl` | Not found in any source |
+| `ladder` | Not found in any source |
+| `applescript` | Not found in any source |
+| `actionscript` | Not found in any source |
+| `arduino-lang` | Not found in any source |
 | `bloc` | Not found in any source |
 | `elementui` | Not found in any source |
 | `fluentui` | Not found in any source |
@@ -18,6 +24,10 @@ Generated: 2026-09-10T17:56:28.586Z
 | `feathericons` | Not found in any source |
 | `heroicons` | Not found in any source |
 | `tabler` | Not found in any source |
+| `dojo` | Not found in any source |
+| `extjs` | Not found in any source |
+| `knockout` | Not found in any source |
+| `mustache` | Not found in any source |
 | `axum` | Not found in any source |
 | `sails` | Not found in any source |
 | `hapi` | Not found in any source |
@@ -32,13 +42,25 @@ Generated: 2026-09-10T17:56:28.586Z
 | `bottle` | Not found in any source |
 | `actixweb` | Not found in any source |
 | `nestjsgraphql` | Not found in any source |
+| `meteor-backend` | Not found in any source |
+| `payload` | Not found in any source |
+| `redwood` | Not found in any source |
+| `wasp` | Not found in any source |
+| `trpc-server` | Not found in any source |
 | `timescaledb` | Not found in any source |
+| `orientdb` | Not found in any source |
+| `marklogic` | Not found in any source |
+| `ravendb` | Not found in any source |
 | `swiftui` | Not found in any source |
 | `kotlinmultiplatform` | Not found in any source |
 | `haproxy` | Not found in any source |
 | `oraclecloud` | Not found in any source |
 | `ibmcloud` | Not found in any source |
 | `qovery` | Not found in any source |
+| `docker-compose` | Not found in any source |
+| `docker-swarm` | Not found in any source |
+| `cri-o` | Not found in any source |
+| `semaphore` | Not found in any source |
 | `iterm` | Not found in any source |
 | `kitty` | Not found in any source |
 | `microsoftteams` | Not found in any source |
@@ -68,6 +90,10 @@ Generated: 2026-09-10T17:56:28.586Z
 | `foundry` | Not found in any source |
 | `uniswap` | Not found in any source |
 | `infura` | Not found in any source |
+| `cosmos` | Not found in any source |
+| `stacks` | Not found in any source |
+| `flow` | Not found in any source |
+| `elrond` | Not found in any source |
 | `esp32` | Not found in any source |
 | `esp8266` | Not found in any source |
 | `iot` | Not found in any source |
