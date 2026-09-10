@@ -1,7 +1,7 @@
 # Icon Fetch Report
 
-**Started:** 2026-09-10T17:32:47.093Z
-**Finished:** 2026-09-10T17:32:47.102Z
+**Started:** 2026-09-10T17:43:11.114Z
+**Finished:** 2026-09-10T17:43:11.117Z
 
 ---
 
@@ -9,19 +9,16 @@
 
 | Metric | Count |
 |--------|-------|
-| ✅ Added | 26 |
-| ⏭️ Skipped | 123 |
+| ✅ Added | 0 |
+| ⏭️ Skipped | 149 |
 | ❌ Failed | 1 |
-| 🎨 Fill Normalized | 11 |
+| 🎨 Fill Normalized | 0 |
 | **Total** | **150** |
 
 ## Icons by Source
 
 | Source | Count |
 |--------|-------|
-| theSVG | 21 |
-| Simple Icons | 3 |
-| Devicon | 2 |
 
 ---
 
@@ -49,10 +46,10 @@
 | `deno` | cached | - | ⏭️ Skipped | Already exists |
 | `scala` | cached | - | ⏭️ Skipped | Already exists |
 | `elixir` | cached | - | ⏭️ Skipped | Already exists |
-| `phoenix` | theSVG | default | ✅ Added |  |
+| `phoenix` | cached | - | ⏭️ Skipped | Already exists |
 | `haskell` | cached | - | ⏭️ Skipped | Already exists |
 | `clojure` | cached | - | ⏭️ Skipped | Already exists |
-| `r` | theSVG | default | ✅ Added |  |
+| `r` | cached | - | ⏭️ Skipped | Already exists |
 | `lua` | cached | - | ⏭️ Skipped | Already exists |
 | `julia` | cached | - | ⏭️ Skipped | Already exists |
 | `zig` | cached | - | ⏭️ Skipped | Already exists |
@@ -72,15 +69,15 @@
 | `bootstrap` | cached | - | ⏭️ Skipped | Already exists |
 | `sass` | cached | - | ⏭️ Skipped | Already exists |
 | `mobx` | cached | - | ⏭️ Skipped | Already exists |
-| `recoil` | theSVG | default | ✅ Added |  |
-| `jotai` | theSVG | default | ✅ Added |  |
+| `recoil` | cached | - | ⏭️ Skipped | Already exists |
+| `jotai` | cached | - | ⏭️ Skipped | Already exists |
 | `materialui` | cached | - | ⏭️ Skipped | Already exists |
 | `antdesign` | cached | - | ⏭️ Skipped | Already exists |
 | `chakraui` | cached | - | ⏭️ Skipped | Already exists |
-| `shadcnui` | Simple Icons | mono | ✅ Added |  |
-| `radixui` | Simple Icons | mono | ✅ Added |  |
-| `headlessui` | theSVG | default | ✅ Added |  |
-| `styledcomponents` | Devicon | original | ✅ Added |  |
+| `shadcnui` | cached | - | ⏭️ Skipped | Already exists |
+| `radixui` | cached | - | ⏭️ Skipped | Already exists |
+| `headlessui` | cached | - | ⏭️ Skipped | Already exists |
+| `styledcomponents` | cached | - | ⏭️ Skipped | Already exists |
 | `solidjs` | cached | - | ⏭️ Skipped | Already exists |
 | `framermotion` | cached | - | ⏭️ Skipped | Already exists |
 | `storybook` | cached | - | ⏭️ Skipped | Already exists |
@@ -88,9 +85,9 @@
 | `d3js` | cached | - | ⏭️ Skipped | Already exists |
 | `chartjs` | cached | - | ⏭️ Skipped | Already exists |
 | `webassembly` | cached | - | ⏭️ Skipped | Already exists |
-| `pinia` | theSVG | default | ✅ Added |  |
-| `ngrx` | theSVG | default | ✅ Added |  |
-| `getx` | theSVG | default | ✅ Added |  |
+| `pinia` | cached | - | ⏭️ Skipped | Already exists |
+| `ngrx` | cached | - | ⏭️ Skipped | Already exists |
+| `getx` | cached | - | ⏭️ Skipped | Already exists |
 | `bloc` | - | - | ❌ Failed | Not found in any source |
 | `express` | cached | - | ⏭️ Skipped | Already exists |
 | `nestjs` | cached | - | ⏭️ Skipped | Already exists |
@@ -117,12 +114,12 @@
 | `dynamodb` | cached | - | ⏭️ Skipped | Already exists |
 | `cassandra` | cached | - | ⏭️ Skipped | Already exists |
 | `prisma` | cached | - | ⏭️ Skipped | Already exists |
-| `typeorm` | theSVG | default | ✅ Added |  |
-| `sequelize` | theSVG | default | ✅ Added |  |
+| `typeorm` | cached | - | ⏭️ Skipped | Already exists |
+| `sequelize` | cached | - | ⏭️ Skipped | Already exists |
 | `neo4j` | cached | - | ⏭️ Skipped | Already exists |
 | `influxdb` | cached | - | ⏭️ Skipped | Already exists |
-| `hive` | theSVG | default | ✅ Added |  |
-| `cockroachdb` | theSVG | default | ✅ Added |  |
+| `hive` | cached | - | ⏭️ Skipped | Already exists |
+| `cockroachdb` | cached | - | ⏭️ Skipped | Already exists |
 | `flutter` | cached | - | ⏭️ Skipped | Already exists |
 | `reactnative` | cached | - | ⏭️ Skipped | Already exists |
 | `ionic` | cached | - | ⏭️ Skipped | Already exists |
@@ -146,11 +143,11 @@
 | `digitalocean` | cached | - | ⏭️ Skipped | Already exists |
 | `railway` | cached | - | ⏭️ Skipped | Already exists |
 | `render` | cached | - | ⏭️ Skipped | Already exists |
-| `circleci` | theSVG | default | ✅ Added |  |
-| `prometheus` | theSVG | default | ✅ Added |  |
-| `grafana` | theSVG | default | ✅ Added |  |
-| `kibana` | theSVG | default | ✅ Added |  |
-| `apache` | theSVG | default | ✅ Added |  |
+| `circleci` | cached | - | ⏭️ Skipped | Already exists |
+| `prometheus` | cached | - | ⏭️ Skipped | Already exists |
+| `grafana` | cached | - | ⏭️ Skipped | Already exists |
+| `kibana` | cached | - | ⏭️ Skipped | Already exists |
+| `apache` | cached | - | ⏭️ Skipped | Already exists |
 | `git` | cached | - | ⏭️ Skipped | Already exists |
 | `github` | cached | - | ⏭️ Skipped | Already exists |
 | `gitlab` | cached | - | ⏭️ Skipped | Already exists |
@@ -160,7 +157,7 @@
 | `webpack` | cached | - | ⏭️ Skipped | Already exists |
 | `figma` | cached | - | ⏭️ Skipped | Already exists |
 | `vim` | cached | - | ⏭️ Skipped | Already exists |
-| `stackoverflow` | Devicon | original | ✅ Added |  |
+| `stackoverflow` | cached | - | ⏭️ Skipped | Already exists |
 | `linux` | cached | - | ⏭️ Skipped | Already exists |
 | `jest` | cached | - | ⏭️ Skipped | Already exists |
 | `eslint` | cached | - | ⏭️ Skipped | Already exists |
@@ -172,13 +169,13 @@
 | `babel` | cached | - | ⏭️ Skipped | Already exists |
 | `postman` | cached | - | ⏭️ Skipped | Already exists |
 | `selenium` | cached | - | ⏭️ Skipped | Already exists |
-| `puppeteer` | theSVG | default | ✅ Added |  |
-| `testinglibrary` | Simple Icons | mono | ✅ Added |  |
+| `puppeteer` | cached | - | ⏭️ Skipped | Already exists |
+| `testinglibrary` | cached | - | ⏭️ Skipped | Already exists |
 | `rollup` | cached | - | ⏭️ Skipped | Already exists |
-| `parcel` | theSVG | default | ✅ Added |  |
+| `parcel` | cached | - | ⏭️ Skipped | Already exists |
 | `esbuild` | cached | - | ⏭️ Skipped | Already exists |
-| `swagger` | theSVG | default | ✅ Added |  |
-| `insomnia` | theSVG | default | ✅ Added |  |
+| `swagger` | cached | - | ⏭️ Skipped | Already exists |
+| `insomnia` | cached | - | ⏭️ Skipped | Already exists |
 
 ---
 
