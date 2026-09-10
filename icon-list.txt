@@ -19,8 +19,10 @@ bun
 deno
 scala
 elixir
+phoenix
 haskell
 clojure
+r
 lua
 julia
 zig
@@ -29,7 +31,7 @@ solidity
 bash
 powershell
 
-# Frontend
+# Frontend (Frameworks, UI & State)
 html
 css
 react
@@ -42,9 +44,15 @@ tailwindcss
 bootstrap
 sass
 mobx
+recoil
+jotai
 materialui
 antdesign
 chakraui
+shadcnui
+radixui
+headlessui
+styledcomponents
 solidjs
 framermotion
 storybook
@@ -52,8 +60,12 @@ threejs
 d3js
 chartjs
 webassembly
+pinia
+ngrx
+getx
+bloc
 
-# Backend
+# Backend Frameworks
 express
 nestjs
 django
@@ -69,7 +81,7 @@ gatsby
 sveltekit
 koa
 
-# Databases
+# Databases & ORMs
 mysql
 postgresql
 mongodb
@@ -81,10 +93,14 @@ elasticsearch
 dynamodb
 cassandra
 prisma
+typeorm
+sequelize
 neo4j
 influxdb
+hive
+cockroachdb
 
-# Mobile
+# Mobile & Cross-Platform
 flutter
 reactnative
 ionic
@@ -110,8 +126,13 @@ heroku
 digitalocean
 railway
 render
+circleci
+prometheus
+grafana
+kibana
+apache
 
-# Dev Tools
+# Dev Tools & Version Control
 git
 github
 gitlab
@@ -121,9 +142,10 @@ vite
 webpack
 figma
 vim
+stackoverflow
 linux
 
-# Testing & Build
+# Testing & Build Tools
 jest
 eslint
 prettier
@@ -134,5 +156,10 @@ vitest
 babel
 postman
 selenium
+puppeteer
+testinglibrary
 rollup
+parcel
 esbuild
+swagger
+insomnia

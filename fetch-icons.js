@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const LIST_FILE = path.join(__dirname, 'icon-list.txt');
+const LIST_FILE = path.join(__dirname, 'icons.txt');
 const ALIASES_FILE = path.join(__dirname, 'icon-aliases.json');
 const OUTPUT_DIR = path.join(__dirname, 'icons');
 const LOGS_DIR = path.join(__dirname, 'logs');
@@ -34,6 +34,29 @@ function loadAliases() {
   } catch (err) {
     return {};
   }
+}
+
+/**
+ * Parse icons.txt into a flat list of icon names.
+ * - Lines starting with '#' are category headers → ignored
+ * - Lines starting with '//' are comments → ignored
+ * - Empty lines are ignored
+ */
+function parseIconsFile() {
+  if (!fs.existsSync(LIST_FILE)) return null;
+
+  const lines = fs.readFileSync(LIST_FILE, 'utf8').split('\n');
+  const names = [];
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    if (trimmed.startsWith('#')) continue;
+    if (trimmed.startsWith('//')) continue;
+    names.push(trimmed);
+  }
+
+  return names;
 }
 
 // ---------- Source Resolvers ----------
@@ -142,23 +165,19 @@ function main() {
 
   const startedAt = new Date().toISOString();
 
-  if (!fs.existsSync(LIST_FILE)) {
-    console.error('❌ icon-list.txt not found');
+  const names = parseIconsFile();
+
+  if (names === null) {
+    console.error('❌ icons.txt not found');
+    process.exit(1);
+  }
+
+  if (names.length === 0) {
+    console.error('❌ icons.txt is empty');
     process.exit(1);
   }
 
   const aliases = loadAliases();
-
-  const names = fs
-    .readFileSync(LIST_FILE, 'utf8')
-    .split('\n')
-    .map(line => line.trim())
-    .filter(line => line && !line.startsWith('#'));
-
-  if (names.length === 0) {
-    console.error('❌ icon-list.txt is empty');
-    process.exit(1);
-  }
 
   const results = [];
   let added = 0;
@@ -184,14 +203,9 @@ function main() {
 
     // Try each source in order
     let resolved = null;
-    let usedSource = null;
-
     for (const source of SOURCES) {
       resolved = source.resolve(id, aliases);
-      if (resolved) {
-        usedSource = source.name;
-        break;
-      }
+      if (resolved) break;
     }
 
     if (!resolved) {
