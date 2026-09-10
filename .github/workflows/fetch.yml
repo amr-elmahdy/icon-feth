@@ -3,8 +3,9 @@ name: Fetch Icons from theSVG
 on:
   workflow_dispatch:
   push:
-    paths:
-      - 'icon-list.txt'
+    branches:
+      - main
+      - master
 
 jobs:
   fetch:
@@ -30,6 +31,9 @@ jobs:
         run: |
           echo "theSVG icons directory:"
           ls /tmp/thesvg/public/icons | head -20
+          echo "..."
+          echo "Total entries:"
+          ls /tmp/thesvg/public/icons | wc -l
 
       - name: Run fetch script
         env:
