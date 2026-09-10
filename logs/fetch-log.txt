@@ -1,183 +1,140 @@
 ========================================
   Icon Fetcher Log
-  Started: 2026-09-10T14:21:47.373Z
+  Started: 2026-09-10T17:05:42.497Z
 ========================================
 📋 Total icons requested: 123
 
-🔄 [javascript] Updated
-🔄 [typescript] Updated
-🎨 [python] Fill normalized (variant: default)
-🔄 [python] Updated
-🔄 [java] Updated
-🔄 [csharp] Updated
-🔄 [cplusplus] Updated
-🎨 [c] Fill normalized (variant: default)
-🔄 [c] Updated
-🔄 [php] Updated
-🔄 [go] Updated
-🎨 [rust] Fill normalized (variant: default)
-🔄 [rust] Updated
-🔄 [kotlin] Updated
-🔄 [swift] Updated
-🔄 [ruby] Updated
-🔄 [dart] Updated
-🔄 [nodejs] Updated
-🎨 [dotnet] Fill normalized (variant: default)
-🔄 [dotnet] Updated
-🔄 [bun] Updated
-🔄 [deno] Updated
-🔄 [scala] Updated
-🎨 [elixir] Fill normalized (variant: default)
-🔄 [elixir] Updated
-🔄 [haskell] Updated
-🎨 [clojure] Fill normalized (variant: default)
-🔄 [clojure] Updated
-🔄 [lua] Updated
-🔄 [julia] Updated
-🎨 [zig] Fill normalized (variant: default)
-🔄 [zig] Updated
-🎨 [nim] Fill normalized (variant: default)
-🔄 [nim] Updated
-🔄 [solidity] Updated
-🔄 [bash] Updated
-🔄 [powershell] Updated
+⏭️  [javascript] Skipped (already exists)
+⏭️  [typescript] Skipped (already exists)
+⏭️  [python] Skipped (already exists)
+⏭️  [java] Skipped (already exists)
+⏭️  [csharp] Skipped (already exists)
+⏭️  [cplusplus] Skipped (already exists)
+⏭️  [c] Skipped (already exists)
+⏭️  [php] Skipped (already exists)
+⏭️  [go] Skipped (already exists)
+⏭️  [rust] Skipped (already exists)
+⏭️  [kotlin] Skipped (already exists)
+⏭️  [swift] Skipped (already exists)
+⏭️  [ruby] Skipped (already exists)
+⏭️  [dart] Skipped (already exists)
+⏭️  [nodejs] Skipped (already exists)
+⏭️  [dotnet] Skipped (already exists)
+⏭️  [bun] Skipped (already exists)
+⏭️  [deno] Skipped (already exists)
+⏭️  [scala] Skipped (already exists)
+⏭️  [elixir] Skipped (already exists)
+⏭️  [haskell] Skipped (already exists)
+⏭️  [clojure] Skipped (already exists)
+⏭️  [lua] Skipped (already exists)
+⏭️  [julia] Skipped (already exists)
+⏭️  [zig] Skipped (already exists)
+⏭️  [nim] Skipped (already exists)
+⏭️  [solidity] Skipped (already exists)
+⏭️  [bash] Skipped (already exists)
+⏭️  [powershell] Skipped (already exists)
 ❌ [html] Not found
-🔄 [css] Updated
-🔄 [react] Updated
-🔄 [vue] Updated
-🎨 [angular] Fill normalized (variant: default)
-🔄 [angular] Updated
-🔄 [svelte] Updated
-🔄 [nextjs] Updated
-🔄 [redux] Updated
-🔄 [tailwindcss] Updated
-🔄 [bootstrap] Updated
-🔄 [sass] Updated
-🎨 [mobx] Fill normalized (variant: default)
-🔄 [mobx] Updated
+⏭️  [css] Skipped (already exists)
+⏭️  [react] Skipped (already exists)
+⏭️  [vue] Skipped (already exists)
+⏭️  [angular] Skipped (already exists)
+⏭️  [svelte] Skipped (already exists)
+⏭️  [nextjs] Skipped (already exists)
+⏭️  [redux] Skipped (already exists)
+⏭️  [tailwindcss] Skipped (already exists)
+⏭️  [bootstrap] Skipped (already exists)
+⏭️  [sass] Skipped (already exists)
+⏭️  [mobx] Skipped (already exists)
 ❌ [materialui] Not found
 ❌ [antdesign] Not found
 ❌ [chakraui] Not found
-🔄 [solidjs] Updated
+⏭️  [solidjs] Skipped (already exists)
 ❌ [framermotion] Not found
-🔄 [storybook] Updated
-🔄 [threejs] Updated
+⏭️  [storybook] Skipped (already exists)
+⏭️  [threejs] Skipped (already exists)
 ❌ [d3js] Not found
-🔄 [chartjs] Updated
-🎨 [webassembly] Fill normalized (variant: default)
-🔄 [webassembly] Updated
-🎨 [express] Fill normalized (variant: default)
-🔄 [express] Updated
-🔄 [nestjs] Updated
-🔄 [django] Updated
-🎨 [flask] Fill normalized (variant: default)
-🔄 [flask] Updated
-🔄 [spring] Updated
-🔄 [laravel] Updated
-🎨 [graphql] Fill normalized (variant: default)
-🔄 [graphql] Updated
-🔄 [fastify] Updated
-🔄 [remix] Updated
+⏭️  [chartjs] Skipped (already exists)
+⏭️  [webassembly] Skipped (already exists)
+⏭️  [express] Skipped (already exists)
+⏭️  [nestjs] Skipped (already exists)
+⏭️  [django] Skipped (already exists)
+⏭️  [flask] Skipped (already exists)
+⏭️  [spring] Skipped (already exists)
+⏭️  [laravel] Skipped (already exists)
+⏭️  [graphql] Skipped (already exists)
+⏭️  [fastify] Skipped (already exists)
+⏭️  [remix] Skipped (already exists)
 ❌ [nuxtjs] Not found
-🎨 [astro] Fill normalized (variant: default)
-🔄 [astro] Updated
-🔄 [gatsby] Updated
+⏭️  [astro] Skipped (already exists)
+⏭️  [gatsby] Skipped (already exists)
 ❌ [sveltekit] Not found
-🎨 [koa] Fill normalized (variant: default)
-🔄 [koa] Updated
-🔄 [mysql] Updated
-🔄 [postgresql] Updated
-🎨 [mongodb] Fill normalized (variant: default)
-🔄 [mongodb] Updated
-🔄 [redis] Updated
-🔄 [sqlite] Updated
-🔄 [mariadb] Updated
-🎨 [supabase] Fill normalized (variant: default)
-🔄 [supabase] Updated
-🎨 [elasticsearch] Fill normalized (variant: default)
-🔄 [elasticsearch] Updated
-🔄 [dynamodb] Updated
-🔄 [cassandra] Updated
-🔄 [prisma] Updated
-🎨 [neo4j] Fill normalized (variant: default)
-🔄 [neo4j] Updated
-🎨 [influxdb] Fill normalized (variant: default)
-🔄 [influxdb] Updated
-🔄 [flutter] Updated
-🔄 [reactnative] Updated
-🎨 [ionic] Fill normalized (variant: default)
-🔄 [ionic] Updated
-🎨 [capacitor] Fill normalized (variant: default)
-🔄 [capacitor] Updated
-🎨 [nativescript] Fill normalized (variant: default)
-🔄 [nativescript] Updated
-🎨 [docker] Fill normalized (variant: default)
-🔄 [docker] Updated
-🔄 [kubernetes] Updated
-🎨 [aws] Fill normalized (variant: default)
-🔄 [aws] Updated
-🔄 [azure] Updated
-🔄 [googlecloud] Updated
-🎨 [firebase] Fill normalized (variant: default)
-🔄 [firebase] Updated
-🔄 [nginx] Updated
-🔄 [terraform] Updated
+⏭️  [koa] Skipped (already exists)
+⏭️  [mysql] Skipped (already exists)
+⏭️  [postgresql] Skipped (already exists)
+⏭️  [mongodb] Skipped (already exists)
+⏭️  [redis] Skipped (already exists)
+⏭️  [sqlite] Skipped (already exists)
+⏭️  [mariadb] Skipped (already exists)
+⏭️  [supabase] Skipped (already exists)
+⏭️  [elasticsearch] Skipped (already exists)
+⏭️  [dynamodb] Skipped (already exists)
+⏭️  [cassandra] Skipped (already exists)
+⏭️  [prisma] Skipped (already exists)
+⏭️  [neo4j] Skipped (already exists)
+⏭️  [influxdb] Skipped (already exists)
+⏭️  [flutter] Skipped (already exists)
+⏭️  [reactnative] Skipped (already exists)
+⏭️  [ionic] Skipped (already exists)
+⏭️  [capacitor] Skipped (already exists)
+⏭️  [nativescript] Skipped (already exists)
+⏭️  [docker] Skipped (already exists)
+⏭️  [kubernetes] Skipped (already exists)
+⏭️  [aws] Skipped (already exists)
+⏭️  [azure] Skipped (already exists)
+⏭️  [googlecloud] Skipped (already exists)
+⏭️  [firebase] Skipped (already exists)
+⏭️  [nginx] Skipped (already exists)
+⏭️  [terraform] Skipped (already exists)
 ❌ [githubactions] Not found
-🎨 [jenkins] Fill normalized (variant: default)
-🔄 [jenkins] Updated
-🎨 [ansible] Fill normalized (variant: default)
-🔄 [ansible] Updated
-🔄 [vercel] Updated
-🔄 [netlify] Updated
-🔄 [cloudflare] Updated
-🔄 [heroku] Updated
-🎨 [digitalocean] Fill normalized (variant: default)
-🔄 [digitalocean] Updated
-🎨 [railway] Fill normalized (variant: default)
-🔄 [railway] Updated
-🎨 [render] Fill normalized (variant: default)
-🔄 [render] Updated
-🔄 [git] Updated
-🎨 [github] Fill normalized (variant: default)
-🔄 [github] Updated
-🎨 [gitlab] Fill normalized (variant: default)
-🔄 [gitlab] Updated
+⏭️  [jenkins] Skipped (already exists)
+⏭️  [ansible] Skipped (already exists)
+⏭️  [vercel] Skipped (already exists)
+⏭️  [netlify] Skipped (already exists)
+⏭️  [cloudflare] Skipped (already exists)
+⏭️  [heroku] Skipped (already exists)
+⏭️  [digitalocean] Skipped (already exists)
+⏭️  [railway] Skipped (already exists)
+⏭️  [render] Skipped (already exists)
+⏭️  [git] Skipped (already exists)
+⏭️  [github] Skipped (already exists)
+⏭️  [gitlab] Skipped (already exists)
 ❌ [vscode] Not found
-🔄 [npm] Updated
-🎨 [vite] Fill normalized (variant: default)
-🔄 [vite] Updated
-🎨 [webpack] Fill normalized (variant: default)
-🔄 [webpack] Updated
-🎨 [figma] Fill normalized (variant: default)
-🔄 [figma] Updated
-🔄 [vim] Updated
-🔄 [linux] Updated
-🔄 [jest] Updated
-🔄 [eslint] Updated
-🔄 [prettier] Updated
-🎨 [cypress] Fill normalized (variant: default)
-🔄 [cypress] Updated
-🎨 [playwright] Fill normalized (variant: default)
-🔄 [playwright] Updated
-🎨 [mocha] Fill normalized (variant: default)
-🔄 [mocha] Updated
-🎨 [vitest] Fill normalized (variant: default)
-🔄 [vitest] Updated
-🔄 [babel] Updated
-🔄 [postman] Updated
-🎨 [selenium] Fill normalized (variant: default)
-🔄 [selenium] Updated
+⏭️  [npm] Skipped (already exists)
+⏭️  [vite] Skipped (already exists)
+⏭️  [webpack] Skipped (already exists)
+⏭️  [figma] Skipped (already exists)
+⏭️  [vim] Skipped (already exists)
+⏭️  [linux] Skipped (already exists)
+⏭️  [jest] Skipped (already exists)
+⏭️  [eslint] Skipped (already exists)
+⏭️  [prettier] Skipped (already exists)
+⏭️  [cypress] Skipped (already exists)
+⏭️  [playwright] Skipped (already exists)
+⏭️  [mocha] Skipped (already exists)
+⏭️  [vitest] Skipped (already exists)
+⏭️  [babel] Skipped (already exists)
+⏭️  [postman] Skipped (already exists)
+⏭️  [selenium] Skipped (already exists)
 ❌ [rollup] Not found
-🔄 [esbuild] Updated
+⏭️  [esbuild] Skipped (already exists)
 
 ========================================
   Summary
 ========================================
   Added:      0
-  Updated:    112
-  Skipped:    0
-  Normalized: 42
+  Skipped:    112
+  Normalized: 0
   Failed:     11
   Total:      112
-  Finished:   2026-09-10T14:21:47.388Z
+  Finished:   2026-09-10T17:05:42.502Z
 ========================================
