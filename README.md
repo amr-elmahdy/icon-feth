@@ -25,3 +25,4 @@ content is extracted and reused inside a wrapper SVG in another project.
 
 - Icon names must match the `slug` used by Simple Icons.
 - Comments start with `#`.
+- .
