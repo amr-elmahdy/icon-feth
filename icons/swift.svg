@@ -1,4 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 256 256">
+<!--
+  name: swift
+  source: theSVG
+  source_url: https://thesvg.org/swift
+  license: See NOTICE.md
+  variant: default
+  fetched: 2026-09-10
+-->
   <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="-1845.5" y1="1255.6" x2="-1797.1" y2="981.3" gradientTransform="rotate(180 -846.6 623.3)">
     <stop offset="0" style="stop-color:#faae42"/>
     <stop offset="1" style="stop-color:#ef3e31"/>
