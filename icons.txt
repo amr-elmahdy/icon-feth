@@ -1,6 +1,4 @@
-# ============================================
 # Languages & Runtimes
-# ============================================
 javascript
 typescript
 python
@@ -53,10 +51,17 @@ purescript
 reason
 lisp
 assembly
+verilog
+vhdl
+ladder
+labview
+autohotkey
+applescript
+actionscript
+arduino-lang
 
-# ============================================
+
 # Frontend (Frameworks, UI & State)
-# ============================================
 html
 css
 react
@@ -120,10 +125,20 @@ feathericons
 heroicons
 lucide
 tabler
+mithril
+riot
+marko
+dojo
+extjs
+sencha
+knockout
+handlebars
+mustache
+pug
+ejs
+nunjucks
 
-# ============================================
 # Backend Frameworks
-# ============================================
 express
 nestjs
 django
@@ -167,10 +182,18 @@ grpc
 phoenixframework
 actixweb
 nestjsgraphql
+moleculer
+meteor-backend
+strapi
+keystone
+directus
+payload
+blitz
+redwood
+wasp
+trpc-server
 
-# ============================================
 # Databases & ORMs
-# ============================================
 mysql
 postgresql
 mongodb
@@ -211,10 +234,18 @@ pinecone
 weaviate
 chroma
 qdrant
+vitess
+tidb
+yugabyte
+scylladb
+riak
+memcached
+aerospike
+orientdb
+marklogic
+ravendb
 
-# ============================================
 # Mobile & Cross-Platform
-# ============================================
 flutter
 reactnative
 ionic
@@ -229,9 +260,7 @@ swiftui
 kotlinmultiplatform
 expo
 
-# ============================================
 # DevOps & Cloud
-# ============================================
 docker
 kubernetes
 aws
@@ -286,10 +315,20 @@ salesforce
 fly
 koyeb
 qovery
+docker-compose
+docker-swarm
+podman
+containerd
+cri-o
+buildkite
+drone
+concourse
+semaphore
+appveyor
+bamboo
+teamcity
 
-# ============================================
 # Dev Tools & Version Control
-# ============================================
 git
 github
 gitlab
@@ -364,9 +403,7 @@ gitkraken
 sourcetree
 gitpod
 
-# ============================================
 # Testing & Build Tools
-# ============================================
 jest
 eslint
 prettier
@@ -401,9 +438,7 @@ stylelint
 husky
 lintstaged
 
-# ============================================
 # AI & Machine Learning
-# ============================================
 tensorflow
 pytorch
 keras
@@ -436,9 +471,7 @@ polars
 matplotlib
 seaborn
 
-# ============================================
 # Security
-# ============================================
 auth0
 keycloak
 snyk
@@ -464,9 +497,7 @@ sonarqubecloud
 checkmarx
 veracode
 
-# ============================================
 # Game Development
-# ============================================
 unity
 unrealengine
 godot
@@ -478,9 +509,7 @@ bevy
 raylib
 love2d
 
-# ============================================
 # CMS & E-Commerce
-# ============================================
 wordpress
 joomla
 drupal
@@ -498,9 +527,7 @@ bigcommerce
 prestashop
 opencart
 
-# ============================================
 # Operating Systems
-# ============================================
 ubuntu
 debian
 fedora
@@ -521,9 +548,7 @@ popos
 elementary
 zorin
 
-# ============================================
 # Blockchain & Web3
-# ============================================
 ethereum
 solana
 polygon
@@ -545,10 +570,18 @@ opensea
 coinbase
 alchemy
 infura
+near
+algorand
+tezos
+cosmos
+polkadot
+stacks
+flow
+elrond
+hedera
+ton
 
-# ============================================
 # Hardware & IoT
-# ============================================
 arduino
 raspberrypi
 esp32
@@ -564,9 +597,7 @@ micropython
 node-red
 homeassistant
 
-# ============================================
 # Documentation & Writing
-# ============================================
 markdown
 mdx
 docusaurus
@@ -585,9 +616,7 @@ latex
 overleaf
 pandoc
 
-# ============================================
 # Social & Communication
-# ============================================
 twitter
 x
 facebook
@@ -610,9 +639,7 @@ patreon
 kofi
 producthunt
 
-# ============================================
 # Data Science & Analytics
-# ============================================
 tableau
 powerbi
 looker
@@ -632,9 +659,7 @@ bigquery
 redshift
 athena
 
-# ============================================
 # Package Managers & Registries
-# ============================================
 npmregistry
 pypi
 crates
@@ -649,9 +674,7 @@ artifactory
 nexus
 verdaccio
 
-# ============================================
 # Misc / Popular Brand Icons
-# ============================================
 google
 microsoft
 apple
