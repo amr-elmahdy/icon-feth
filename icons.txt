@@ -1,4 +1,6 @@
+# ============================================
 # Languages & Runtimes
+# ============================================
 javascript
 typescript
 python
@@ -30,8 +32,31 @@ nim
 solidity
 bash
 powershell
+matlab
+perl
+groovy
+objectivec
+fsharp
+visualbasic
+erlang
+fortran
+cobol
+crystal
+ocaml
+racket
+prolog
+scheme
+v
+haxe
+elm
+purescript
+reason
+lisp
+assembly
 
+# ============================================
 # Frontend (Frameworks, UI & State)
+# ============================================
 html
 css
 react
@@ -64,8 +89,41 @@ pinia
 ngrx
 getx
 bloc
+preact
+ember
+backbone
+meteor
+jquery
+alpinejs
+htmx
+lit
+stencil
+qwik
+vuetify
+elementui
+primevue
+semanticui
+fluentui
+less
+stylus
+postcss
+gsap
+animejs
+lottie
+highcharts
+plotly
+recharts
+victory
+fontawesome
+materialicons
+feathericons
+heroicons
+lucide
+tabler
 
+# ============================================
 # Backend Frameworks
+# ============================================
 express
 nestjs
 django
@@ -80,8 +138,39 @@ astro
 gatsby
 sveltekit
 koa
+fastapi
+gin
+fiber
+actix
+rocket
+axum
+sails
+adonisjs
+hapi
+feathers
+symfony
+codeigniter
+cakephp
+slim
+micronaut
+quarkus
+vertx
+aspnet
+sinatra
+hanami
+pyramid
+tornado
+bottle
+trpc
+apollo
+grpc
+phoenixframework
+actixweb
+nestjsgraphql
 
+# ============================================
 # Databases & ORMs
+# ============================================
 mysql
 postgresql
 mongodb
@@ -99,15 +188,50 @@ neo4j
 influxdb
 hive
 cockroachdb
+mssql
+oracle
+couchdb
+arangodb
+timescaledb
+clickhouse
+duckdb
+planetscale
+neon
+rethinkdb
+faunadb
+opensearch
+mongoose
+knex
+drizzle
+sqlalchemy
+hibernate
+firebase
+firestore
+pinecone
+weaviate
+chroma
+qdrant
 
+# ============================================
 # Mobile & Cross-Platform
+# ============================================
 flutter
 reactnative
 ionic
 capacitor
 nativescript
+xamarin
+android
+androidstudio
+ios
+xcode
+swiftui
+kotlinmultiplatform
+expo
 
+# ============================================
 # DevOps & Cloud
+# ============================================
 docker
 kubernetes
 aws
@@ -131,8 +255,41 @@ prometheus
 grafana
 kibana
 apache
+helm
+argo
+flux
+rancher
+openshift
+tekton
+spinnaker
+datadog
+newrelic
+sentry
+logstash
+traefik
+caddy
+kong
+envoy
+haproxy
+pulumi
+packer
+vagrant
+chef
+puppet
+saltstack
+linode
+vultr
+alibabacloud
+oraclecloud
+ibmcloud
+salesforce
+fly
+koyeb
+qovery
 
+# ============================================
 # Dev Tools & Version Control
+# ============================================
 git
 github
 gitlab
@@ -144,8 +301,72 @@ figma
 vim
 stackoverflow
 linux
+bitbucket
+gitea
+intellij
+pycharm
+webstorm
+phpstorm
+goland
+rubymine
+clion
+rider
+eclipse
+netbeans
+sublime
+atom
+neovim
+emacs
+iterm
+hyper
+alacritty
+kitty
+tmux
+sketch
+adobexd
+photoshop
+illustrator
+aftereffects
+premiere
+blender
+canva
+notion
+obsidian
+todoist
+trello
+asana
+linear
+airtable
+slack
+discord
+telegram
+whatsapp
+zoom
+microsoftteams
+yarn
+pnpm
+pip
+cargo
+maven
+gradle
+composer
+nuget
+gem
+brew
+chocolatey
+swagger
+postman
+insomnia
+stackblitz
+codesandbox
+replit
+gitkraken
+sourcetree
+gitpod
 
+# ============================================
 # Testing & Build Tools
+# ============================================
 jest
 eslint
 prettier
@@ -163,3 +384,290 @@ parcel
 esbuild
 swagger
 insomnia
+karma
+jasmine
+chai
+enzyme
+detox
+appium
+testcafe
+k6
+jmeter
+gatling
+locust
+sonarqube
+codeclimate
+stylelint
+husky
+lintstaged
+
+# ============================================
+# AI & Machine Learning
+# ============================================
+tensorflow
+pytorch
+keras
+scikitlearn
+opencv
+pandas
+numpy
+jupyter
+mlflow
+langchain
+huggingface
+openai
+anthropic
+llamaindex
+streamlit
+gradio
+anaconda
+kaggle
+googlecolab
+weightsandbiases
+wandb
+sagemaker
+vertexai
+cuda
+nvidia
+ollama
+ray
+dask
+polars
+matplotlib
+seaborn
+
+# ============================================
+# Security
+# ============================================
+auth0
+keycloak
+snyk
+owasp
+burpsuite
+metasploit
+nmap
+wireshark
+letsencrypt
+cloudflaretunnel
+okta
+jwt
+oauth
+saml
+vault
+1password
+bitwarden
+lastpass
+dashlane
+keeper
+hashicorpvault
+sonarqubecloud
+checkmarx
+veracode
+
+# ============================================
+# Game Development
+# ============================================
+unity
+unrealengine
+godot
+gdevelop
+pygame
+gamemaker
+construct
+bevy
+raylib
+love2d
+
+# ============================================
+# CMS & E-Commerce
+# ============================================
+wordpress
+joomla
+drupal
+shopify
+webflow
+wix
+squarespace
+ghost
+strapi
+contentful
+sanity
+magento
+woocommerce
+bigcommerce
+prestashop
+opencart
+
+# ============================================
+# Operating Systems
+# ============================================
+ubuntu
+debian
+fedora
+centos
+arch
+manjaro
+mint
+redhat
+alpine
+kali
+windows
+macos
+freebsd
+opensuse
+rockylinux
+almalinux
+popos
+elementary
+zorin
+
+# ============================================
+# Blockchain & Web3
+# ============================================
+ethereum
+solana
+polygon
+binance
+bitcoin
+ipfs
+web3js
+ethers
+hardhat
+truffle
+foundry
+metamask
+cardano
+polkadot
+avalanche
+chainlink
+uniswap
+opensea
+coinbase
+alchemy
+infura
+
+# ============================================
+# Hardware & IoT
+# ============================================
+arduino
+raspberrypi
+esp32
+esp8266
+iot
+platformio
+nvidia
+intel
+amd
+qualcomm
+raspbian
+micropython
+node-red
+homeassistant
+
+# ============================================
+# Documentation & Writing
+# ============================================
+markdown
+mdx
+docusaurus
+vitepress
+mkdocs
+readthedocs
+gitbook
+slate
+hugo
+jekyll
+notion
+obsidian
+roam
+logseq
+latex
+overleaf
+pandoc
+
+# ============================================
+# Social & Communication
+# ============================================
+twitter
+x
+facebook
+instagram
+linkedin
+youtube
+twitch
+tiktok
+reddit
+pinterest
+snapchat
+mastodon
+threads
+bluesky
+medium
+devto
+hashnode
+substack
+patreon
+kofi
+producthunt
+
+# ============================================
+# Data Science & Analytics
+# ============================================
+tableau
+powerbi
+looker
+metabase
+superset
+redash
+apache
+spark
+hadoop
+kafka
+flink
+airflow
+dbt
+snowflake
+databricks
+bigquery
+redshift
+athena
+
+# ============================================
+# Package Managers & Registries
+# ============================================
+npmregistry
+pypi
+crates
+mavencentral
+nuget
+rubygems
+packagist
+dockershub
+ghcr
+quay
+artifactory
+nexus
+verdaccio
+
+# ============================================
+# Misc / Popular Brand Icons
+# ============================================
+google
+microsoft
+apple
+meta
+amazon
+netflix
+spotify
+adobe
+salesforce
+oracle
+ibm
+sap
+vmware
+cisco
+dell
+hp
+lenovo
+asana
+zoom
