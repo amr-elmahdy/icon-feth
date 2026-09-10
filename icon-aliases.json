@@ -1,0 +1,22 @@
+{
+  "html": ["html5"],
+  "materialui": ["mui", "material-ui", "materialdesign"],
+  "antdesign": ["ant-design", "antd"],
+  "chakraui": ["chakra-ui"],
+  "framermotion": ["framer-motion", "motion"],
+  "d3js": ["d3", "d3.js"],
+  "nuxtjs": ["nuxt"],
+  "sveltekit": ["svelte-kit"],
+  "githubactions": ["github-actions"],
+  "vscode": ["vs-code", "visual-studio-code", "vscodium"],
+  "rollup": ["rollupjs", "rollup.js"],
+  "reactnative": ["react-native"],
+  "nextjs": ["next"],
+  "nodejs": ["node", "node.js"],
+  "postgresql": ["postgres"],
+  "mongodb": ["mongo"],
+  "kubernetes": ["k8s"],
+  "googlecloud": ["gcp", "google-cloud"],
+  "amazonwebservices": ["aws", "amazon-web-services"],
+  "materialdesign": ["material-design"]
+}

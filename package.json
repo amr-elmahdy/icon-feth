@@ -2,8 +2,12 @@
   "name": "icon-fetcher",
   "version": "1.0.0",
   "private": true,
-  "description": "Fetch SVG icons from theSVG for Charmly",
+  "description": "Fetch SVG icons with multi-source fallback",
   "scripts": {
     "fetch": "node fetch-icons.js"
+  },
+  "dependencies": {
+    "devicon": "^2.16.0",
+    "simple-icons": "^13.0.0"
   }
 }
