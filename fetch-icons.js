@@ -9,6 +9,8 @@ const THESVG_ICONS = path.join(THESVG_DIR, 'public', 'icons');
 
 const VARIANT_PRIORITY = ['default', 'color', 'original', 'mono'];
 
+// ---------- Utilities ----------
+
 function normalizeName(name) {
   return name.trim().toLowerCase().replace(/\s+/g, '-');
 }
@@ -17,26 +19,36 @@ function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
-// دالة للبحث عن الأيقونة في المصدر
 function findIconFile(name) {
   const iconDir = path.join(THESVG_ICONS, name);
+  
   if (fs.existsSync(iconDir) && fs.statSync(iconDir).isDirectory()) {
     for (const variant of VARIANT_PRIORITY) {
       const filePath = path.join(iconDir, `${variant}.svg`);
-      if (fs.existsSync(filePath)) return { path: filePath, variant };
+      if (fs.existsSync(filePath)) {
+        return { path: filePath, variant };
+      }
     }
   }
+  
   const singleFile = path.join(THESVG_ICONS, `${name}.svg`);
-  if (fs.existsSync(singleFile)) return { path: singleFile, variant: 'single' };
+  if (fs.existsSync(singleFile)) {
+    return { path: singleFile, variant: 'single' };
+  }
+  
   return null;
 }
 
-// دالة لضمان وجود fill على العناصر الداخلية
 function normalizeFill(svgContent) {
   const rootFillMatch = svgContent.match(/<svg[^>]*\s(fill|color)="([^"]+)"/i);
   if (!rootFillMatch) return svgContent;
+  
   const color = rootFillMatch[2];
-  let cleaned = svgContent.replace(new RegExp(`\\s${rootFillMatch[1]}="${color}"`, 'i'), '');
+  let cleaned = svgContent.replace(
+    new RegExp(`\\s${rootFillMatch[1]}="${color}"`, 'i'),
+    ''
+  );
+  
   cleaned = cleaned.replace(
     /<(path|circle|rect|polygon|polyline|line|ellipse)([^>]*?)(\/?)>/gi,
     (match, tag, attrs, selfClose) => {
@@ -44,52 +56,155 @@ function normalizeFill(svgContent) {
       return `<${tag}${attrs} fill="${color}"${selfClose}>`;
     }
   );
+  
   return cleaned;
 }
 
-// دالة جديدة لإضافة تعليق مختصر جداً
 function addSimpleComment(svgContent, name) {
   const comment = `\n<!-- Source: theSVG (https://thesvg.org/${name}) -->\n`;
   return svgContent.replace(/(<svg[^>]*>)/i, `$1${comment}`);
 }
 
-function main() {
-  // ... (كود التهيئة والتحقق من الملفات)
+// ---------- Logging ----------
+
+function initLog() {
+  ensureDir(LOGS_DIR);
+  const lines = [
+    '========================================',
+    '  Icon Fetcher Log',
+    `  Started: ${new Date().toISOString()}`,
+    '========================================',
+    '',
+  ];
+  fs.writeFileSync(path.join(LOGS_DIR, 'fetch-log.txt'), lines.join('\n'));
+}
+
+function appendLog(message) {
+  fs.appendFileSync(path.join(LOGS_DIR, 'fetch-log.txt'), message + '\n');
+}
+
+function writeFailedLog(failures) {
+  const lines = [
+    '# Failed Icons',
+    `# Generated: ${new Date().toISOString()}`,
+    `# Total: ${failures.length}`,
+    '',
+  ];
   
-  // ... (قراءة قائمة الأسماء)
+  for (const f of failures) {
+    lines.push(`[${f.name}]`);
+    lines.push(`  reason: ${f.reason}`);
+    if (f.tried_variants && f.tried_variants.length > 0) {
+      lines.push(`  tried_variants: ${f.tried_variants.join(', ')}`);
+    }
+    lines.push('');
+  }
+  
+  fs.writeFileSync(path.join(LOGS_DIR, 'failed.txt'), lines.join('\n'));
+}
+
+// ---------- Main ----------
+
+function main() {
+  initLog();
+  
+  if (!fs.existsSync(LIST_FILE)) {
+    appendLog('❌ icon-list.txt not found');
+    console.error('❌ icon-list.txt not found');
+    process.exit(1);
+  }
+  
+  if (!fs.existsSync(THESVG_ICONS)) {
+    appendLog(`❌ theSVG icons not found at ${THESVG_ICONS}`);
+    console.error(`❌ theSVG icons not found at ${THESVG_ICONS}`);
+    process.exit(1);
+  }
+  
+  const names = fs
+    .readFileSync(LIST_FILE, 'utf8')
+    .split('\n')
+    .map(line => line.trim())
+    .filter(line => line && !line.startsWith('#'));
+  
+  if (names.length === 0) {
+    appendLog('❌ icon-list.txt is empty');
+    console.error('❌ icon-list.txt is empty');
+    process.exit(1);
+  }
+  
+  appendLog(`📋 Total icons requested: ${names.length}`);
+  appendLog('');
+  
+  ensureDir(OUTPUT_DIR);
   
   let added = 0;
   let skipped = 0;
+  let normalized = 0;
   const failures = [];
   
   for (const rawName of names) {
     const id = normalizeName(rawName);
     const dest = path.join(OUTPUT_DIR, `${id}.svg`);
     
-    // التحقق من وجود الملف أولاً
+    // Skip if the file already exists (respects theSVG's resources)
     if (fs.existsSync(dest)) {
       skipped++;
-      // ... (تسجيل أنه تم تخطيه)
+      appendLog(`⏭️  [${id}] Skipped (already exists)`);
       continue;
     }
     
     const found = findIconFile(id);
+    
     if (!found) {
-      failures.push({ name: rawName, reason: 'Not found in theSVG' });
+      failures.push({
+        name: rawName,
+        reason: 'Not found in theSVG (no matching variant)',
+        tried_variants: VARIANT_PRIORITY,
+      });
+      appendLog(`❌ [${id}] Not found`);
       continue;
     }
     
-    // ... (قراءة الملف من المصدر)
     const rawSvg = fs.readFileSync(found.path, 'utf8');
     const filled = normalizeFill(rawSvg);
-    const finalSvg = addSimpleComment(filled, id); // استخدام الدالة الجديدة
+    
+    if (filled !== rawSvg) {
+      normalized++;
+      appendLog(`🎨 [${id}] Fill normalized (variant: ${found.variant})`);
+    }
+    
+    const finalSvg = addSimpleComment(filled, id);
     
     fs.writeFileSync(dest, finalSvg);
     added++;
-    // ... (تسجيل أنه تمت إضافته)
+    appendLog(`✅ [${id}] Added (variant: ${found.variant})`);
   }
   
-  // ... (كود كتابة الملخص)
+  // ---------- Summary ----------
+  const summaryLines = [
+    '',
+    '========================================',
+    '  Summary',
+    '========================================',
+    `  Added:      ${added}`,
+    `  Skipped:    ${skipped}`,
+    `  Normalized: ${normalized}`,
+    `  Failed:     ${failures.length}`,
+    `  Total:      ${added + skipped}`,
+    `  Finished:   ${new Date().toISOString()}`,
+    '========================================',
+  ];
+  
+  for (const line of summaryLines) appendLog(line);
+  console.log(summaryLines.join('\n'));
+  
+  if (failures.length > 0) {
+    writeFailedLog(failures);
+    console.log('\n⚠️  Failed icons written to logs/failed.txt');
+  } else {
+    const failedPath = path.join(LOGS_DIR, 'failed.txt');
+    if (fs.existsSync(failedPath)) fs.unlinkSync(failedPath);
+  }
 }
 
 main();
