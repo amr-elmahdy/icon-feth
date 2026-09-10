@@ -3,54 +3,54 @@ const path = require('path');
 
 const LIST_FILE = path.join(__dirname, 'icon-list.txt');
 const OUTPUT_DIR = path.join(__dirname, 'icons');
-const SOURCE_DIR = path.join(__dirname, 'node_modules', 'simple-icons', 'icons');
+const THESVG_DIR = process.env.THESVG_DIR || '/tmp/thesvg';
+const THESVG_ICONS = path.join(THESVG_DIR, 'public', 'icons');
+
+// Variant priority: try most colorful variants first
+const VARIANT_PRIORITY = [
+  'default',
+  'color',
+  'original',
+  'mono',
+];
 
 /**
- * Moves fill/color from the root <svg> tag to inner elements.
- * This ensures colors survive when the SVG content is later extracted
- * and reused inside another wrapper SVG.
+ * Find the best SVG file for the given icon name.
+ * Tries variants in priority order, then falls back to single-file layout.
  */
-function cleanIconSvg(rawSvg) {
-  const rootFillMatch = rawSvg.match(/<svg[^>]*\s(fill|color)="([^"]+)"/i);
-  if (!rootFillMatch) return rawSvg;
-  
-  const attrName = rootFillMatch[1];
-  const colorValue = rootFillMatch[2];
-  
-  let cleaned = rawSvg.replace(
-    new RegExp(`\\s${attrName}="${colorValue}"`, 'i'),
-    ''
-  );
-  
-  cleaned = cleaned.replace(
-    /<(path|circle|rect|polygon|polyline|line|ellipse)([^>]*?)(\/?)>/gi,
-    (match, tag, attrs, selfClose) => {
-      if (/\sfill=/i.test(attrs) || /\scolor=/i.test(attrs)) return match;
-      return `<${tag}${attrs} fill="${colorValue}"${selfClose}>`;
+function findIconFile(name) {
+  // Variant-based layout: icons/{name}/{variant}.svg
+  if (fs.existsSync(path.join(THESVG_ICONS, name))) {
+    for (const variant of VARIANT_PRIORITY) {
+      const filePath = path.join(THESVG_ICONS, name, `${variant}.svg`);
+      if (fs.existsSync(filePath)) {
+        return { path: filePath, variant };
+      }
     }
-  );
+  }
   
-  return cleaned;
+  // Single-file layout: icons/{name}.svg
+  const singleFile = path.join(THESVG_ICONS, `${name}.svg`);
+  if (fs.existsSync(singleFile)) {
+    return { path: singleFile, variant: 'single' };
+  }
+  
+  return null;
 }
 
-/**
- * Normalizes an icon name to a safe lowercase id.
- */
 function normalizeName(name) {
   return name.trim().toLowerCase().replace(/\s+/g, '-');
 }
 
-/**
- * Main function.
- */
 function main() {
   if (!fs.existsSync(LIST_FILE)) {
     console.error('❌ icon-list.txt not found');
     process.exit(1);
   }
   
-  if (!fs.existsSync(SOURCE_DIR)) {
-    console.error('❌ simple-icons not installed. Run "npm install" first.');
+  if (!fs.existsSync(THESVG_ICONS)) {
+    console.error(`❌ theSVG icons not found at ${THESVG_ICONS}`);
+    console.error('   Make sure the repository is cloned first.');
     process.exit(1);
   }
   
@@ -72,43 +72,43 @@ function main() {
   let added = 0;
   let updated = 0;
   let skipped = 0;
-  let cleanedCount = 0;
   const missing = [];
   
   for (const rawName of names) {
     const id = normalizeName(rawName);
-    const src = path.join(SOURCE_DIR, `${id}.svg`);
     const dest = path.join(OUTPUT_DIR, `${id}.svg`);
     
-    if (!fs.existsSync(src)) {
+    const found = findIconFile(id);
+    if (!found) {
       missing.push(rawName);
       continue;
     }
     
-    const rawSvg = fs.readFileSync(src, 'utf8');
-    const cleanedSvg = cleanIconSvg(rawSvg);
+    const svgContent = fs.readFileSync(found.path, 'utf8');
     
-    if (cleanedSvg !== rawSvg) cleanedCount++;
-    
-    // Skip if identical content already exists
+    // Skip if identical content exists
     if (fs.existsSync(dest)) {
-      const existingSvg = fs.readFileSync(dest, 'utf8');
-      if (existingSvg === cleanedSvg) {
+      const existing = fs.readFileSync(dest, 'utf8');
+      if (existing === svgContent) {
         skipped++;
         continue;
       }
-      fs.writeFileSync(dest, cleanedSvg);
+      fs.writeFileSync(dest, svgContent);
       updated++;
     } else {
-      fs.writeFileSync(dest, cleanedSvg);
+      fs.writeFileSync(dest, svgContent);
       added++;
     }
   }
   
-  console.log(`✅ Added: ${added}`);
-  console.log(`🔄 Updated: ${updated}`);
-  console.log(`⏭️  Skipped (no changes): ${skipped}`);
-  console.log(`🎨 Cleaned (root fill moved): ${cleanedCount}`);
+  console.log('');
+  console.log('📊 Fetch Summary');
+  console.log('─'.repeat(40));
+  console.log(`✅ Added:    ${added}`);
+  console.log(`🔄 Updated:  ${updated}`);
+  console.log(`⏭️  Skipped:  ${skipped}`);
+  console.log(`📦 Total:    ${added + updated + skipped}`);
+  console.log('─'.repeat(40));
   
   if (missing.length > 0) {
     console.warn(`⚠️  Missing ${missing.length} icon(s):`);

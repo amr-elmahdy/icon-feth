@@ -1,4 +1,4 @@
-name: Fetch Icons
+name: Fetch Icons from theSVG
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout icon-fetcher
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -22,10 +22,18 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Clone theSVG repository
+        run: |
+          git clone --depth 1 https://github.com/glincker/thesvg.git /tmp/thesvg
+
+      - name: Verify theSVG structure
+        run: |
+          echo "theSVG icons directory:"
+          ls /tmp/thesvg/public/icons | head -20
 
       - name: Run fetch script
+        env:
+          THESVG_DIR: /tmp/thesvg
         run: node fetch-icons.js
 
       - name: Commit and push icons
@@ -36,6 +44,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update icons from simple-icons"
+            git commit -m "chore: update icons from theSVG"
             git push
           fi

@@ -2,11 +2,8 @@
   "name": "icon-fetcher",
   "version": "1.0.0",
   "private": true,
-  "description": "Fetch and clean SVG icons from Simple Icons",
+  "description": "Fetch SVG icons from theSVG for Charmly",
   "scripts": {
     "fetch": "node fetch-icons.js"
-  },
-  "dependencies": {
-    "simple-icons": "^13.0.0"
   }
 }
