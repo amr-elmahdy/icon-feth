@@ -1,7 +1,7 @@
 # Icon Fetch Report
 
-**Started:** 2026-09-15T05:29:54.104Z
-**Finished:** 2026-09-15T05:29:54.182Z
+**Started:** 2026-09-15T05:36:37.264Z
+**Finished:** 2026-09-15T05:36:37.662Z
 
 ---
 
@@ -9,25 +9,25 @@
 
 | Metric | Count |
 |--------|-------|
-| ✅ Added | 92 |
-| ⏭️ Skipped | 887 |
-| ❌ Failed | 521 |
-| 🎨 Fill Normalized | 67 |
+| ✅ Added | 49 |
+| ⏭️ Skipped | 979 |
+| ❌ Failed | 472 |
+| 🎨 Fill Normalized | 35 |
 | **Total** | **1500** |
 
 ## Icons by Source
 
 | Source | Count |
 |--------|-------|
-| theSVG | 92 |
+| theSVG | 49 |
 
 ## Color Normalization
 
 | Action | Count |
 |--------|-------|
-| 🔀 Moved root fill | 62 |
-| ➖ Unchanged | 25 |
-| ⚪ Added white fill | 5 |
+| 🔀 Moved root fill | 31 |
+| ➖ Unchanged | 14 |
+| ⚪ Added white fill | 4 |
 
 ---
 
@@ -74,14 +74,14 @@
 | `ocaml` | cached | - | ⏭️ Skipped | - | Already exists |
 | `racket` | cached | - | ⏭️ Skipped | - | Already exists |
 | `prolog` | cached | - | ⏭️ Skipped | - | Already exists |
-| `scheme` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from racket |
+| `scheme` | cached | - | ⏭️ Skipped | - | Already exists |
 | `v` | cached | - | ⏭️ Skipped | - | Already exists |
 | `haxe` | cached | - | ⏭️ Skipped | - | Already exists |
 | `elm` | cached | - | ⏭️ Skipped | - | Already exists |
 | `purescript` | cached | - | ⏭️ Skipped | - | Already exists |
 | `reason` | cached | - | ⏭️ Skipped | - | Already exists |
-| `lisp` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from common-lisp |
-| `assembly` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from nasm |
+| `lisp` | cached | - | ⏭️ Skipped | - | Already exists |
+| `assembly` | cached | - | ⏭️ Skipped | - | Already exists |
 | `verilog` | - | - | ❌ Failed | - | Not found in any source |
 | `vhdl` | - | - | ❌ Failed | - | Not found in any source |
 | `ladder` | - | - | ❌ Failed | - | Not found in any source |
@@ -104,7 +104,7 @@
 | `abap` | - | - | ❌ Failed | - | Not found in any source |
 | `delphi` | cached | - | ⏭️ Skipped | - | Already exists |
 | `coffeescript` | cached | - | ⏭️ Skipped | - | Already exists |
-| `nix` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from nixos |
+| `nix` | cached | - | ⏭️ Skipped | - | Already exists |
 | `idris` | - | - | ❌ Failed | - | Not found in any source |
 | `agda` | - | - | ❌ Failed | - | Not found in any source |
 | `coq` | - | - | ❌ Failed | - | Not found in any source |
@@ -132,7 +132,7 @@
 | `ring` | cached | - | ⏭️ Skipped | - | Already exists |
 | `rebol` | - | - | ❌ Failed | - | Not found in any source |
 | `squeak` | - | - | ❌ Failed | - | Not found in any source |
-| `redlang` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from red |
+| `redlang` | cached | - | ⏭️ Skipped | - | Already exists |
 | `selflang` | - | - | ❌ Failed | - | Not found in any source |
 | `curry` | - | - | ❌ Failed | - | Not found in any source |
 | `gerbil` | - | - | ❌ Failed | - | Not found in any source |
@@ -161,13 +161,13 @@
 | `wasmtime` | - | - | ❌ Failed | - | Not found in any source |
 | `wasmer` | cached | - | ⏭️ Skipped | - | Already exists |
 | `quickjs` | - | - | ❌ Failed | - | Not found in any source |
-| `v8engine` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from v8 |
+| `v8engine` | cached | - | ⏭️ Skipped | - | Already exists |
 | `luajit` | - | - | ❌ Failed | - | Not found in any source |
 | `pypy` | cached | - | ⏭️ Skipped | - | Already exists |
 | `cpython` | - | - | ❌ Failed | - | Not found in any source |
 | `mono` | cached | - | ⏭️ Skipped | - | Already exists |
 | `coreclr` | - | - | ❌ Failed | - | Not found in any source |
-| `hermesengine` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from hermes |
+| `hermesengine` | cached | - | ⏭️ Skipped | - | Already exists |
 | `jsc` | - | - | ❌ Failed | - | Not found in any source |
 | `spidermonkey` | cached | - | ⏭️ Skipped | - | Already exists |
 | `chakracore` | - | - | ❌ Failed | - | Not found in any source |
@@ -195,7 +195,7 @@
 | `csv` | - | - | ❌ Failed | - | Not found in any source |
 | `protobuf` | - | - | ❌ Failed | - | Not found in any source |
 | `graphqlschema` | - | - | ❌ Failed | - | Not found in any source |
-| `jinja2` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from jinja |
+| `jinja2` | cached | - | ⏭️ Skipped | - | Already exists |
 | `liquid` | cached | - | ⏭️ Skipped | - | Already exists |
 | `haml` | - | - | ❌ Failed | - | Not found in any source |
 | `slimtemplate` | - | - | ❌ Failed | - | Not found in any source |
@@ -205,7 +205,7 @@
 | `unocss` | cached | - | ⏭️ Skipped | - | Already exists |
 | `windicss` | cached | - | ⏭️ Skipped | - | Already exists |
 | `bulma` | cached | - | ⏭️ Skipped | - | Already exists |
-| `foundationcss` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from foundation |
+| `foundationcss` | cached | - | ⏭️ Skipped | - | Already exists |
 | `materializecss` | cached | - | ⏭️ Skipped | - | Already exists |
 | `purecss` | - | - | ❌ Failed | - | Not found in any source |
 | `react` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -228,7 +228,7 @@
 | `riot` | cached | - | ⏭️ Skipped | - | Already exists |
 | `marko` | cached | - | ⏭️ Skipped | - | Already exists |
 | `dojo` | - | - | ❌ Failed | - | Not found in any source |
-| `extjs` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from sencha |
+| `extjs` | cached | - | ⏭️ Skipped | - | Already exists |
 | `sencha` | cached | - | ⏭️ Skipped | - | Already exists |
 | `knockout` | - | - | ❌ Failed | - | Not found in any source |
 | `inferno` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -240,7 +240,7 @@
 | `unpoly` | - | - | ❌ Failed | - | Not found in any source |
 | `petitevue` | - | - | ❌ Failed | - | Not found in any source |
 | `zeptojs` | - | - | ❌ Failed | - | Not found in any source |
-| `freshdeno` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from fresh |
+| `freshdeno` | cached | - | ⏭️ Skipped | - | Already exists |
 | `blazor` | cached | - | ⏭️ Skipped | - | Already exists |
 | `nx` | cached | - | ⏭️ Skipped | - | Already exists |
 | `turborepo` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -268,7 +268,7 @@
 | `reduxtoolkit` | - | - | ❌ Failed | - | Not found in any source |
 | `swr` | cached | - | ⏭️ Skipped | - | Already exists |
 | `reactquery` | cached | - | ⏭️ Skipped | - | Already exists |
-| `tanstackquery` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from react-query |
+| `tanstackquery` | cached | - | ⏭️ Skipped | - | Already exists |
 | `easypeasy` | - | - | ❌ Failed | - | Not found in any source |
 | `materialui` | cached | - | ⏭️ Skipped | - | Already exists |
 | `antdesign` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -277,7 +277,7 @@
 | `radixui` | cached | - | ⏭️ Skipped | - | Already exists |
 | `headlessui` | cached | - | ⏭️ Skipped | - | Already exists |
 | `vuetify` | cached | - | ⏭️ Skipped | - | Already exists |
-| `elementui` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from element |
+| `elementui` | cached | - | ⏭️ Skipped | - | Already exists |
 | `primevue` | cached | - | ⏭️ Skipped | - | Already exists |
 | `semanticui` | cached | - | ⏭️ Skipped | - | Already exists |
 | `fluentui` | - | - | ❌ Failed | - | Not found in any source |
@@ -285,7 +285,7 @@
 | `nextui` | cached | - | ⏭️ Skipped | - | Already exists |
 | `mantine` | cached | - | ⏭️ Skipped | - | Already exists |
 | `daisyui` | cached | - | ⏭️ Skipped | - | Already exists |
-| `blueprintjs` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from blueprint |
+| `blueprintjs` | cached | - | ⏭️ Skipped | - | Already exists |
 | `evergreen` | - | - | ❌ Failed | - | Not found in any source |
 | `grommet` | cached | - | ⏭️ Skipped | - | Already exists |
 | `reactbootstrap` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -299,7 +299,7 @@
 | `tdesign` | - | - | ❌ Failed | - | Not found in any source |
 | `varlet` | - | - | ❌ Failed | - | Not found in any source |
 | `kendoui` | - | - | ❌ Failed | - | Not found in any source |
-| `devextreme` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from devexpress |
+| `devextreme` | cached | - | ⏭️ Skipped | - | Already exists |
 | `framermotion` | cached | - | ⏭️ Skipped | - | Already exists |
 | `gsap` | cached | - | ⏭️ Skipped | - | Already exists |
 | `animejs` | - | - | ❌ Failed | - | Not found in any source |
@@ -308,15 +308,15 @@
 | `d3js` | cached | - | ⏭️ Skipped | - | Already exists |
 | `babylonjs` | cached | - | ⏭️ Skipped | - | Already exists |
 | `p5js` | cached | - | ⏭️ Skipped | - | Already exists |
-| `konvajs` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from konva |
+| `konvajs` | cached | - | ⏭️ Skipped | - | Already exists |
 | `pixijs` | cached | - | ⏭️ Skipped | - | Already exists |
-| `fabricjs` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from fabric |
-| `paperjs` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from paper |
+| `fabricjs` | cached | - | ⏭️ Skipped | - | Already exists |
+| `paperjs` | cached | - | ⏭️ Skipped | - | Already exists |
 | `zdog` | - | - | ❌ Failed | - | Not found in any source |
-| `motionone` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from motion |
-| `reactspring` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from react-spring |
+| `motionone` | cached | - | ⏭️ Skipped | - | Already exists |
+| `reactspring` | cached | - | ⏭️ Skipped | - | Already exists |
 | `popmotion` | - | - | ❌ Failed | - | Not found in any source |
-| `velocityjs` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from velocity |
+| `velocityjs` | cached | - | ⏭️ Skipped | - | Already exists |
 | `scrollmagic` | - | - | ❌ Failed | - | Not found in any source |
 | `aoslibrary` | - | - | ❌ Failed | - | Not found in any source |
 | `rive` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -328,17 +328,17 @@
 | `recharts` | - | - | ❌ Failed | - | Not found in any source |
 | `victory` | - | - | ❌ Failed | - | Not found in any source |
 | `apexcharts` | - | - | ❌ Failed | - | Not found in any source |
-| `echarts` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from apache-echarts |
+| `echarts` | cached | - | ⏭️ Skipped | - | Already exists |
 | `nivo` | - | - | ❌ Failed | - | Not found in any source |
 | `visx` | cached | - | ⏭️ Skipped | - | Already exists |
 | `vega` | cached | - | ⏭️ Skipped | - | Already exists |
-| `vegalite` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from vega |
+| `vegalite` | cached | - | ⏭️ Skipped | - | Already exists |
 | `c3js` | - | - | ❌ Failed | - | Not found in any source |
 | `chartistjs` | - | - | ❌ Failed | - | Not found in any source |
-| `billboardjs` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from billboard |
+| `billboardjs` | cached | - | ⏭️ Skipped | - | Already exists |
 | `amcharts` | - | - | ❌ Failed | - | Not found in any source |
 | `googlecharts` | - | - | ❌ Failed | - | Not found in any source |
-| `observableplot` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from observable |
+| `observableplot` | cached | - | ⏭️ Skipped | - | Already exists |
 | `fontawesome` | cached | - | ⏭️ Skipped | - | Already exists |
 | `materialicons` | - | - | ❌ Failed | - | Not found in any source |
 | `feathericons` | - | - | ❌ Failed | - | Not found in any source |
@@ -353,7 +353,7 @@
 | `octicons` | - | - | ❌ Failed | - | Not found in any source |
 | `bootstrapicons` | - | - | ❌ Failed | - | Not found in any source |
 | `simpleicons` | cached | - | ⏭️ Skipped | - | Already exists |
-| `devicons` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from devicon |
+| `devicons` | cached | - | ⏭️ Skipped | - | Already exists |
 | `unicons` | - | - | ❌ Failed | - | Not found in any source |
 | `iconoir` | - | - | ❌ Failed | - | Not found in any source |
 | `handlebars` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -408,15 +408,15 @@
 | `actixweb` | - | - | ❌ Failed | - | Not found in any source |
 | `nestjsgraphql` | - | - | ❌ Failed | - | Not found in any source |
 | `moleculer` | cached | - | ⏭️ Skipped | - | Already exists |
-| `meteor-backend` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from meteor |
+| `meteor-backend` | cached | - | ⏭️ Skipped | - | Already exists |
 | `strapi` | cached | - | ⏭️ Skipped | - | Already exists |
 | `keystone` | cached | - | ⏭️ Skipped | - | Already exists |
 | `directus` | cached | - | ⏭️ Skipped | - | Already exists |
-| `payload` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from payload-cms |
+| `payload` | cached | - | ⏭️ Skipped | - | Already exists |
 | `blitz` | cached | - | ⏭️ Skipped | - | Already exists |
-| `redwood` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from redwoodjs |
+| `redwood` | cached | - | ⏭️ Skipped | - | Already exists |
 | `wasp` | - | - | ❌ Failed | - | Not found in any source |
-| `trpc-server` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from trpc |
+| `trpc-server` | cached | - | ⏭️ Skipped | - | Already exists |
 | `phoenix` | cached | - | ⏭️ Skipped | - | Already exists |
 | `rails` | cached | - | ⏭️ Skipped | - | Already exists |
 | `springboot` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -461,7 +461,7 @@
 | `hasura` | cached | - | ⏭️ Skipped | - | Already exists |
 | `postgraphile` | cached | - | ⏭️ Skipped | - | Already exists |
 | `hoppscotch` | cached | - | ⏭️ Skipped | - | Already exists |
-| `brunoapi` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from bruno |
+| `brunoapi` | cached | - | ⏭️ Skipped | - | Already exists |
 | `thunderclient` | - | - | ❌ Failed | - | Not found in any source |
 | `pawapi` | - | - | ❌ Failed | - | Not found in any source |
 | `apiary` | - | - | ❌ Failed | - | Not found in any source |
@@ -479,7 +479,7 @@
 | `teradata` | cached | - | ⏭️ Skipped | - | Already exists |
 | `saphana` | - | - | ❌ Failed | - | Not found in any source |
 | `sybase` | - | - | ❌ Failed | - | Not found in any source |
-| `firebirdsql` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from firebird |
+| `firebirdsql` | cached | - | ⏭️ Skipped | - | Already exists |
 | `h2database` | - | - | ❌ Failed | - | Not found in any source |
 | `derbydb` | - | - | ❌ Failed | - | Not found in any source |
 | `mongodb` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -499,13 +499,13 @@
 | `vitess` | cached | - | ⏭️ Skipped | - | Already exists |
 | `planetscale` | cached | - | ⏭️ Skipped | - | Already exists |
 | `neon` | cached | - | ⏭️ Skipped | - | Already exists |
-| `timescaledb` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from timescale |
+| `timescaledb` | cached | - | ⏭️ Skipped | - | Already exists |
 | `clickhouse` | cached | - | ⏭️ Skipped | - | Already exists |
 | `duckdb` | cached | - | ⏭️ Skipped | - | Already exists |
 | `hive` | cached | - | ⏭️ Skipped | - | Already exists |
 | `couchbase` | cached | - | ⏭️ Skipped | - | Already exists |
-| `hbase` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from apache-hbase |
-| `bigtable` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from google-bigtable |
+| `hbase` | cached | - | ⏭️ Skipped | - | Already exists |
+| `bigtable` | cached | - | ⏭️ Skipped | - | Already exists |
 | `cosmosdb` | cached | - | ⏭️ Skipped | - | Already exists |
 | `dgraph` | cached | - | ⏭️ Skipped | - | Already exists |
 | `surrealdb` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -532,7 +532,7 @@
 | `meilisearch` | cached | - | ⏭️ Skipped | - | Already exists |
 | `typesense` | cached | - | ⏭️ Skipped | - | Already exists |
 | `solr` | cached | - | ⏭️ Skipped | - | Already exists |
-| `sphinxsearch` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from sphinx |
+| `sphinxsearch` | cached | - | ⏭️ Skipped | - | Already exists |
 | `milvus` | cached | - | ⏭️ Skipped | - | Already exists |
 | `vespa` | cached | - | ⏭️ Skipped | - | Already exists |
 | `marqo` | - | - | ❌ Failed | - | Not found in any source |
@@ -557,7 +557,7 @@
 | `peewee` | - | - | ❌ Failed | - | Not found in any source |
 | `tortoiseorm` | - | - | ❌ Failed | - | Not found in any source |
 | `activerecord` | - | - | ❌ Failed | - | Not found in any source |
-| `doctrineorm` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from doctrine |
+| `doctrineorm` | cached | - | ⏭️ Skipped | - | Already exists |
 | `firebase` | cached | - | ⏭️ Skipped | - | Already exists |
 | `firestore` | cached | - | ⏭️ Skipped | - | Already exists |
 | `supabase` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -605,9 +605,9 @@
 | `fastlane` | cached | - | ⏭️ Skipped | - | Already exists |
 | `appcenter` | - | - | ❌ Failed | - | Not found in any source |
 | `testflight` | - | - | ❌ Failed | - | Not found in any source |
-| `googleplayconsole` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from google-play |
-| `appstoreconnect` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from app-store |
-| `cordova` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from apache-cordova |
+| `googleplayconsole` | cached | - | ⏭️ Skipped | - | Already exists |
+| `appstoreconnect` | cached | - | ⏭️ Skipped | - | Already exists |
+| `cordova` | cached | - | ⏭️ Skipped | - | Already exists |
 | `phonegap` | - | - | ❌ Failed | - | Not found in any source |
 | `aws` | cached | - | ⏭️ Skipped | - | Already exists |
 | `azure` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -686,7 +686,7 @@
 | `buildkite` | cached | - | ⏭️ Skipped | - | Already exists |
 | `drone` | cached | - | ⏭️ Skipped | - | Already exists |
 | `concourse` | cached | - | ⏭️ Skipped | - | Already exists |
-| `semaphore` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from semaphore-ci |
+| `semaphore` | cached | - | ⏭️ Skipped | - | Already exists |
 | `appveyor` | cached | - | ⏭️ Skipped | - | Already exists |
 | `bamboo` | cached | - | ⏭️ Skipped | - | Already exists |
 | `teamcity` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -780,47 +780,47 @@
 | `stackblitz` | cached | - | ⏭️ Skipped | - | Already exists |
 | `codesandbox` | cached | - | ⏭️ Skipped | - | Already exists |
 | `replit` | cached | - | ⏭️ Skipped | - | Already exists |
-| `zededitor` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from zed |
-| `cursorai` | theSVG | default | ✅ Added | ⚪ Added white fill | aliased from cursor |
-| `windsurfide` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from windsurf |
-| `jetbrainsfleet` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from jetbrains-fleet |
+| `zededitor` | cached | - | ⏭️ Skipped | - | Already exists |
+| `cursorai` | cached | - | ⏭️ Skipped | - | Already exists |
+| `windsurfide` | cached | - | ⏭️ Skipped | - | Already exists |
+| `jetbrainsfleet` | cached | - | ⏭️ Skipped | - | Already exists |
 | `codeblocks` | cached | - | ⏭️ Skipped | - | Already exists |
 | `kateeditor` | - | - | ❌ Failed | - | Not found in any source |
 | `geany` | - | - | ❌ Failed | - | Not found in any source |
 | `brackets` | - | - | ❌ Failed | - | Not found in any source |
 | `lapce` | cached | - | ⏭️ Skipped | - | Already exists |
-| `helixeditor` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from helix |
+| `helixeditor` | cached | - | ⏭️ Skipped | - | Already exists |
 | `microeditor` | cached | - | ⏭️ Skipped | - | Already exists |
-| `nanoeditor` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from nano |
+| `nanoeditor` | cached | - | ⏭️ Skipped | - | Already exists |
 | `gedit` | - | - | ❌ Failed | - | Not found in any source |
 | `textmate` | - | - | ❌ Failed | - | Not found in any source |
 | `bbedit` | - | - | ❌ Failed | - | Not found in any source |
 | `notepadplusplus` | cached | - | ⏭️ Skipped | - | Already exists |
 | `ultraedit` | - | - | ❌ Failed | - | Not found in any source |
-| `iterm` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from iterm2 |
+| `iterm` | cached | - | ⏭️ Skipped | - | Already exists |
 | `hyper` | cached | - | ⏭️ Skipped | - | Already exists |
 | `alacritty` | cached | - | ⏭️ Skipped | - | Already exists |
 | `kitty` | - | - | ❌ Failed | - | Not found in any source |
 | `tmux` | cached | - | ⏭️ Skipped | - | Already exists |
-| `warpterminal` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from warp |
+| `warpterminal` | cached | - | ⏭️ Skipped | - | Already exists |
 | `wezterm` | cached | - | ⏭️ Skipped | - | Already exists |
 | `zsh` | cached | - | ⏭️ Skipped | - | Already exists |
 | `fishshell` | cached | - | ⏭️ Skipped | - | Already exists |
 | `ohmyzsh` | cached | - | ⏭️ Skipped | - | Already exists |
-| `starshipprompt` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from starship |
+| `starshipprompt` | cached | - | ⏭️ Skipped | - | Already exists |
 | `tilix` | - | - | ❌ Failed | - | Not found in any source |
 | `terminator` | - | - | ❌ Failed | - | Not found in any source |
 | `npm` | cached | - | ⏭️ Skipped | - | Already exists |
 | `yarn` | cached | - | ⏭️ Skipped | - | Already exists |
 | `pnpm` | cached | - | ⏭️ Skipped | - | Already exists |
-| `pip` | - | - | ❌ Failed | - | Not found in any source |
+| `pip` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from pypi |
 | `cargo` | - | - | ❌ Failed | - | Not found in any source |
 | `maven` | cached | - | ⏭️ Skipped | - | Already exists |
 | `gradle` | cached | - | ⏭️ Skipped | - | Already exists |
 | `composer` | cached | - | ⏭️ Skipped | - | Already exists |
 | `nuget` | cached | - | ⏭️ Skipped | - | Already exists |
-| `gem` | - | - | ❌ Failed | - | Not found in any source |
-| `brew` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from homebrew |
+| `gem` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from rubygems |
+| `brew` | cached | - | ⏭️ Skipped | - | Already exists |
 | `chocolatey` | cached | - | ⏭️ Skipped | - | Already exists |
 | `vite` | cached | - | ⏭️ Skipped | - | Already exists |
 | `webpack` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -828,10 +828,10 @@
 | `parcel` | cached | - | ⏭️ Skipped | - | Already exists |
 | `esbuild` | cached | - | ⏭️ Skipped | - | Already exists |
 | `babel` | cached | - | ⏭️ Skipped | - | Already exists |
-| `npmregistry` | - | - | ❌ Failed | - | Not found in any source |
+| `npmregistry` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from npm |
 | `pypi` | cached | - | ⏭️ Skipped | - | Already exists |
 | `crates` | - | - | ❌ Failed | - | Not found in any source |
-| `mavencentral` | - | - | ❌ Failed | - | Not found in any source |
+| `mavencentral` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from apache-maven |
 | `rubygems` | cached | - | ⏭️ Skipped | - | Already exists |
 | `packagist` | cached | - | ⏭️ Skipped | - | Already exists |
 | `dockershub` | - | - | ❌ Failed | - | Not found in any source |
@@ -841,17 +841,17 @@
 | `nexus` | - | - | ❌ Failed | - | Not found in any source |
 | `verdaccio` | cached | - | ⏭️ Skipped | - | Already exists |
 | `turbopack` | cached | - | ⏭️ Skipped | - | Already exists |
-| `swcrust` | - | - | ❌ Failed | - | Not found in any source |
+| `swcrust` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from swc |
 | `tsup` | - | - | ❌ Failed | - | Not found in any source |
 | `snowpack` | cached | - | ⏭️ Skipped | - | Already exists |
 | `browserify` | - | - | ❌ Failed | - | Not found in any source |
 | `grunt` | cached | - | ⏭️ Skipped | - | Already exists |
 | `gulp` | cached | - | ⏭️ Skipped | - | Already exists |
 | `bower` | cached | - | ⏭️ Skipped | - | Already exists |
-| `conda` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from anaconda |
-| `poetrypython` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from poetry |
+| `conda` | cached | - | ⏭️ Skipped | - | Already exists |
+| `poetrypython` | cached | - | ⏭️ Skipped | - | Already exists |
 | `pipenv` | - | - | ❌ Failed | - | Not found in any source |
-| `uvpython` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from uv |
+| `uvpython` | cached | - | ⏭️ Skipped | - | Already exists |
 | `bundlerruby` | - | - | ❌ Failed | - | Not found in any source |
 | `sbtscala` | - | - | ❌ Failed | - | Not found in any source |
 | `leiningen` | - | - | ❌ Failed | - | Not found in any source |
@@ -859,7 +859,7 @@
 | `buck2` | - | - | ❌ Failed | - | Not found in any source |
 | `ninjabuild` | - | - | ❌ Failed | - | Not found in any source |
 | `cmake` | cached | - | ⏭️ Skipped | - | Already exists |
-| `maketool` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from make |
+| `maketool` | cached | - | ⏭️ Skipped | - | Already exists |
 | `aptpackage` | - | - | ❌ Failed | - | Not found in any source |
 | `yum` | - | - | ❌ Failed | - | Not found in any source |
 | `pacman` | - | - | ❌ Failed | - | Not found in any source |
@@ -895,7 +895,7 @@
 | `husky` | - | - | ❌ Failed | - | Not found in any source |
 | `lintstaged` | - | - | ❌ Failed | - | Not found in any source |
 | `junit` | cached | - | ⏭️ Skipped | - | Already exists |
-| `pytestframework` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from pytest |
+| `pytestframework` | cached | - | ⏭️ Skipped | - | Already exists |
 | `rspec` | cached | - | ⏭️ Skipped | - | Already exists |
 | `nunit` | - | - | ❌ Failed | - | Not found in any source |
 | `xunit` | - | - | ❌ Failed | - | Not found in any source |
@@ -904,7 +904,7 @@
 | `cucumber` | cached | - | ⏭️ Skipped | - | Already exists |
 | `specflow` | - | - | ❌ Failed | - | Not found in any source |
 | `webdriverio` | cached | - | ⏭️ Skipped | - | Already exists |
-| `nightwatchjs` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from nightwatch |
+| `nightwatchjs` | cached | - | ⏭️ Skipped | - | Already exists |
 | `avatest` | - | - | ❌ Failed | - | Not found in any source |
 | `tapetest` | - | - | ❌ Failed | - | Not found in any source |
 | `sinonjs` | - | - | ❌ Failed | - | Not found in any source |
@@ -917,8 +917,8 @@
 | `flake8` | - | - | ❌ Failed | - | Not found in any source |
 | `pylint` | - | - | ❌ Failed | - | Not found in any source |
 | `mypy` | cached | - | ⏭️ Skipped | - | Already exists |
-| `blackformatter` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from black |
-| `rufflinter` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from ruff |
+| `blackformatter` | cached | - | ⏭️ Skipped | - | Already exists |
+| `rufflinter` | cached | - | ⏭️ Skipped | - | Already exists |
 | `commitlint` | cached | - | ⏭️ Skipped | - | Already exists |
 | `semanticrelease` | cached | - | ⏭️ Skipped | - | Already exists |
 | `changesets` | - | - | ❌ Failed | - | Not found in any source |
@@ -942,10 +942,10 @@
 | `kaggle` | cached | - | ⏭️ Skipped | - | Already exists |
 | `googlecolab` | cached | - | ⏭️ Skipped | - | Already exists |
 | `weightsandbiases` | cached | - | ⏭️ Skipped | - | Already exists |
-| `wandb` | theSVG | default | ✅ Added | ⚪ Added white fill | aliased from weights-and-biases |
+| `wandb` | cached | - | ⏭️ Skipped | - | Already exists |
 | `sagemaker` | - | - | ❌ Failed | - | Not found in any source |
 | `vertexai` | - | - | ❌ Failed | - | Not found in any source |
-| `cuda` | - | - | ❌ Failed | - | Not found in any source |
+| `cuda` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from nvidia |
 | `nvidia` | cached | - | ⏭️ Skipped | - | Already exists |
 | `ollama` | cached | - | ⏭️ Skipped | - | Already exists |
 | `ray` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -953,24 +953,24 @@
 | `polars` | cached | - | ⏭️ Skipped | - | Already exists |
 | `matplotlib` | cached | - | ⏭️ Skipped | - | Already exists |
 | `seaborn` | cached | - | ⏭️ Skipped | - | Already exists |
-| `mistralai` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from mistral |
+| `mistralai` | cached | - | ⏭️ Skipped | - | Already exists |
 | `cohere` | cached | - | ⏭️ Skipped | - | Already exists |
 | `googlegemini` | cached | - | ⏭️ Skipped | - | Already exists |
-| `stabilityai` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from stability-ai |
+| `stabilityai` | cached | - | ⏭️ Skipped | - | Already exists |
 | `midjourney` | cached | - | ⏭️ Skipped | - | Already exists |
-| `runwayml` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from runway |
+| `runwayml` | cached | - | ⏭️ Skipped | - | Already exists |
 | `elevenlabs` | cached | - | ⏭️ Skipped | - | Already exists |
-| `perplexityai` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from perplexity |
-| `xaigrok` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from xai |
+| `perplexityai` | cached | - | ⏭️ Skipped | - | Already exists |
+| `xaigrok` | cached | - | ⏭️ Skipped | - | Already exists |
 | `deepseek` | cached | - | ⏭️ Skipped | - | Already exists |
-| `qwenai` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from qwen |
+| `qwenai` | cached | - | ⏭️ Skipped | - | Already exists |
 | `transformerslib` | - | - | ❌ Failed | - | Not found in any source |
 | `spacy` | cached | - | ⏭️ Skipped | - | Already exists |
 | `nltk` | - | - | ❌ Failed | - | Not found in any source |
 | `xgboost` | cached | - | ⏭️ Skipped | - | Already exists |
 | `lightgbm` | - | - | ❌ Failed | - | Not found in any source |
 | `catboost` | - | - | ❌ Failed | - | Not found in any source |
-| `onnxruntime` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from onnx |
+| `onnxruntime` | cached | - | ⏭️ Skipped | - | Already exists |
 | `jaxml` | - | - | ❌ Failed | - | Not found in any source |
 | `flax` | - | - | ❌ Failed | - | Not found in any source |
 | `paddlepaddle` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -988,32 +988,32 @@
 | `stablebaselines` | - | - | ❌ Failed | - | Not found in any source |
 | `comfyui` | cached | - | ⏭️ Skipped | - | Already exists |
 | `automatic1111` | - | - | ❌ Failed | - | Not found in any source |
-| `replicateai` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from replicate |
-| `modallabs` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from modal |
-| `togetherai` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from together-ai |
+| `replicateai` | cached | - | ⏭️ Skipped | - | Already exists |
+| `modallabs` | cached | - | ⏭️ Skipped | - | Already exists |
+| `togetherai` | cached | - | ⏭️ Skipped | - | Already exists |
 | `tableau` | cached | - | ⏭️ Skipped | - | Already exists |
 | `powerbi` | - | - | ❌ Failed | - | Not found in any source |
 | `looker` | cached | - | ⏭️ Skipped | - | Already exists |
 | `metabase` | cached | - | ⏭️ Skipped | - | Already exists |
-| `superset` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from apache-superset |
+| `superset` | cached | - | ⏭️ Skipped | - | Already exists |
 | `redash` | cached | - | ⏭️ Skipped | - | Already exists |
 | `spark` | cached | - | ⏭️ Skipped | - | Already exists |
 | `hadoop` | cached | - | ⏭️ Skipped | - | Already exists |
-| `flink` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from apache-flink |
+| `flink` | cached | - | ⏭️ Skipped | - | Already exists |
 | `airflow` | cached | - | ⏭️ Skipped | - | Already exists |
 | `dbt` | cached | - | ⏭️ Skipped | - | Already exists |
 | `snowflake` | cached | - | ⏭️ Skipped | - | Already exists |
 | `databricks` | cached | - | ⏭️ Skipped | - | Already exists |
-| `bigquery` | - | - | ❌ Failed | - | Not found in any source |
+| `bigquery` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from google-bigquery |
 | `redshift` | - | - | ❌ Failed | - | Not found in any source |
 | `athena` | - | - | ❌ Failed | - | Not found in any source |
-| `qlikview` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from qlik |
+| `qlikview` | cached | - | ⏭️ Skipped | - | Already exists |
 | `sisense` | - | - | ❌ Failed | - | Not found in any source |
-| `domobi` | theSVG | default | ✅ Added | ⚪ Added white fill | aliased from domo |
+| `domobi` | cached | - | ⏭️ Skipped | - | Already exists |
 | `apachenifi` | cached | - | ⏭️ Skipped | - | Already exists |
 | `apachebeam` | - | - | ❌ Failed | - | Not found in any source |
 | `dagster` | cached | - | ⏭️ Skipped | - | Already exists |
-| `prefectio` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from prefect |
+| `prefectio` | cached | - | ⏭️ Skipped | - | Already exists |
 | `luigietl` | - | - | ❌ Failed | - | Not found in any source |
 | `fivetran` | - | - | ❌ Failed | - | Not found in any source |
 | `airbyte` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1023,17 +1023,17 @@
 | `informatica` | cached | - | ⏭️ Skipped | - | Already exists |
 | `alteryx` | cached | - | ⏭️ Skipped | - | Already exists |
 | `sasanalytics` | - | - | ❌ Failed | - | Not found in any source |
-| `spssibm` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from spss |
+| `spssibm` | cached | - | ⏭️ Skipped | - | Already exists |
 | `statasoftware` | - | - | ❌ Failed | - | Not found in any source |
 | `minitab` | cached | - | ⏭️ Skipped | - | Already exists |
-| `orangedatamining` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from orange |
+| `orangedatamining` | cached | - | ⏭️ Skipped | - | Already exists |
 | `knime` | cached | - | ⏭️ Skipped | - | Already exists |
 | `rapidminer` | - | - | ❌ Failed | - | Not found in any source |
-| `lookerstudio` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from looker |
+| `lookerstudio` | cached | - | ⏭️ Skipped | - | Already exists |
 | `mixpanel` | cached | - | ⏭️ Skipped | - | Already exists |
 | `amplitude` | cached | - | ⏭️ Skipped | - | Already exists |
 | `segmentanalytics` | - | - | ❌ Failed | - | Not found in any source |
-| `heapanalytics` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from heap |
+| `heapanalytics` | cached | - | ⏭️ Skipped | - | Already exists |
 | `hotjar` | cached | - | ⏭️ Skipped | - | Already exists |
 | `auth0` | cached | - | ⏭️ Skipped | - | Already exists |
 | `keycloak` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1055,8 +1055,8 @@
 | `lastpass` | cached | - | ⏭️ Skipped | - | Already exists |
 | `dashlane` | cached | - | ⏭️ Skipped | - | Already exists |
 | `keeper` | cached | - | ⏭️ Skipped | - | Already exists |
-| `hashicorpvault` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from vault |
-| `sonarqubecloud` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from sonarcloud |
+| `hashicorpvault` | cached | - | ⏭️ Skipped | - | Already exists |
+| `sonarqubecloud` | cached | - | ⏭️ Skipped | - | Already exists |
 | `checkmarx` | cached | - | ⏭️ Skipped | - | Already exists |
 | `veracode` | - | - | ❌ Failed | - | Not found in any source |
 | `nordvpn` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1072,14 +1072,14 @@
 | `paloaltonetworks` | cached | - | ⏭️ Skipped | - | Already exists |
 | `fortinet` | cached | - | ⏭️ Skipped | - | Already exists |
 | `duosecurity` | - | - | ❌ Failed | - | Not found in any source |
-| `pingidentity` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from ping-identity |
+| `pingidentity` | cached | - | ⏭️ Skipped | - | Already exists |
 | `onelogin` | cached | - | ⏭️ Skipped | - | Already exists |
 | `forgerock` | - | - | ❌ Failed | - | Not found in any source |
 | `casbin` | - | - | ❌ Failed | - | Not found in any source |
 | `opapolicy` | - | - | ❌ Failed | - | Not found in any source |
 | `hashicorpboundary` | - | - | ❌ Failed | - | Not found in any source |
-| `teleportsecurity` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from teleport |
-| `yubikey` | - | - | ❌ Failed | - | Not found in any source |
+| `teleportsecurity` | cached | - | ⏭️ Skipped | - | Already exists |
+| `yubikey` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from yubico |
 | `googleauthenticator` | cached | - | ⏭️ Skipped | - | Already exists |
 | `authy` | cached | - | ⏭️ Skipped | - | Already exists |
 | `qualys` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1094,12 +1094,12 @@
 | `gdevelop` | - | - | ❌ Failed | - | Not found in any source |
 | `pygame` | - | - | ❌ Failed | - | Not found in any source |
 | `gamemaker` | cached | - | ⏭️ Skipped | - | Already exists |
-| `construct` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from construct-3 |
+| `construct` | cached | - | ⏭️ Skipped | - | Already exists |
 | `bevy` | cached | - | ⏭️ Skipped | - | Already exists |
 | `raylib` | cached | - | ⏭️ Skipped | - | Already exists |
 | `love2d` | cached | - | ⏭️ Skipped | - | Already exists |
-| `cocos2d` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from cocos |
-| `phaserjs` | theSVG | default | ✅ Added | ⚪ Added white fill | aliased from phaser |
+| `cocos2d` | cached | - | ⏭️ Skipped | - | Already exists |
+| `phaserjs` | cached | - | ⏭️ Skipped | - | Already exists |
 | `defold` | - | - | ❌ Failed | - | Not found in any source |
 | `cryengine` | cached | - | ⏭️ Skipped | - | Already exists |
 | `sourceengine` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1129,7 +1129,7 @@
 | `octobercms` | cached | - | ⏭️ Skipped | - | Already exists |
 | `processwire` | cached | - | ⏭️ Skipped | - | Already exists |
 | `craftcms` | cached | - | ⏭️ Skipped | - | Already exists |
-| `builderio` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from builder-io |
+| `builderio` | cached | - | ⏭️ Skipped | - | Already exists |
 | `carrd` | cached | - | ⏭️ Skipped | - | Already exists |
 | `tilda` | - | - | ❌ Failed | - | Not found in any source |
 | `elementor` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1140,7 +1140,7 @@
 | `bigcommerce` | cached | - | ⏭️ Skipped | - | Already exists |
 | `prestashop` | cached | - | ⏭️ Skipped | - | Already exists |
 | `opencart` | - | - | ❌ Failed | - | Not found in any source |
-| `medusajs` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from medusa |
+| `medusajs` | cached | - | ⏭️ Skipped | - | Already exists |
 | `saleor` | - | - | ❌ Failed | - | Not found in any source |
 | `vendure` | - | - | ❌ Failed | - | Not found in any source |
 | `commercejs` | - | - | ❌ Failed | - | Not found in any source |
@@ -1179,9 +1179,9 @@
 | `endeavouros` | cached | - | ⏭️ Skipped | - | Already exists |
 | `mxlinux` | cached | - | ⏭️ Skipped | - | Already exists |
 | `deepin` | cached | - | ⏭️ Skipped | - | Already exists |
-| `solusos` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from solus |
+| `solusos` | cached | - | ⏭️ Skipped | - | Already exists |
 | `qubesos` | cached | - | ⏭️ Skipped | - | Already exists |
-| `tailsos` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from tails |
+| `tailsos` | cached | - | ⏭️ Skipped | - | Already exists |
 | `openbsd` | cached | - | ⏭️ Skipped | - | Already exists |
 | `netbsd` | cached | - | ⏭️ Skipped | - | Already exists |
 | `dragonflybsd` | - | - | ❌ Failed | - | Not found in any source |
@@ -1218,14 +1218,14 @@
 | `ton` | cached | - | ⏭️ Skipped | - | Already exists |
 | `arbitrum` | - | - | ❌ Failed | - | Not found in any source |
 | `optimism` | cached | - | ⏭️ Skipped | - | Already exists |
-| `basechain` | theSVG | default | ✅ Added | ⚪ Added white fill | aliased from base |
+| `basechain` | cached | - | ⏭️ Skipped | - | Already exists |
 | `zksync` | - | - | ❌ Failed | - | Not found in any source |
 | `starknet` | - | - | ❌ Failed | - | Not found in any source |
 | `scrollzk` | - | - | ❌ Failed | - | Not found in any source |
 | `aptos` | - | - | ❌ Failed | - | Not found in any source |
-| `suinetwork` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from sui |
+| `suinetwork` | cached | - | ⏭️ Skipped | - | Already exists |
 | `movelanguage` | - | - | ❌ Failed | - | Not found in any source |
-| `ripplexrp` | - | - | ❌ Failed | - | Not found in any source |
+| `ripplexrp` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from xrp |
 | `litecoin` | cached | - | ⏭️ Skipped | - | Already exists |
 | `dogecoin` | cached | - | ⏭️ Skipped | - | Already exists |
 | `monero` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1238,7 +1238,7 @@
 | `sushiswap` | - | - | ❌ Failed | - | Not found in any source |
 | `pancakeswap` | - | - | ❌ Failed | - | Not found in any source |
 | `walletconnect` | cached | - | ⏭️ Skipped | - | Already exists |
-| `trustwallet` | - | - | ❌ Failed | - | Not found in any source |
+| `trustwallet` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from trust-wallet |
 | `ledgerwallet` | - | - | ❌ Failed | - | Not found in any source |
 | `phantomwallet` | - | - | ❌ Failed | - | Not found in any source |
 | `rainbowwallet` | - | - | ❌ Failed | - | Not found in any source |
@@ -1268,16 +1268,16 @@
 | `sparkfun` | cached | - | ⏭️ Skipped | - | Already exists |
 | `tinkercad` | cached | - | ⏭️ Skipped | - | Already exists |
 | `kicad` | cached | - | ⏭️ Skipped | - | Already exists |
-| `eaglecad` | - | - | ❌ Failed | - | Not found in any source |
+| `eaglecad` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from eagle |
 | `fritzing` | - | - | ❌ Failed | - | Not found in any source |
-| `mqttprotocol` | - | - | ❌ Failed | - | Not found in any source |
+| `mqttprotocol` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from mqtt |
 | `zigbee` | cached | - | ⏭️ Skipped | - | Already exists |
 | `zwave` | - | - | ❌ Failed | - | Not found in any source |
 | `lorawan` | - | - | ❌ Failed | - | Not found in any source |
 | `threadprotocol` | - | - | ❌ Failed | - | Not found in any source |
-| `matterprotocol` | - | - | ❌ Failed | - | Not found in any source |
+| `matterprotocol` | theSVG | default | ✅ Added | ⚪ Added white fill | aliased from matter |
 | `freertos` | - | - | ❌ Failed | - | Not found in any source |
-| `zephyros` | - | - | ❌ Failed | - | Not found in any source |
+| `zephyros` | theSVG | default | ✅ Added | ⚪ Added white fill | aliased from zephyr |
 | `mbedos` | - | - | ❌ Failed | - | Not found in any source |
 | `markdown` | cached | - | ⏭️ Skipped | - | Already exists |
 | `mdx` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1292,7 +1292,7 @@
 | `latex` | cached | - | ⏭️ Skipped | - | Already exists |
 | `overleaf` | cached | - | ⏭️ Skipped | - | Already exists |
 | `pandoc` | cached | - | ⏭️ Skipped | - | Already exists |
-| `sphinxdocs` | - | - | ❌ Failed | - | Not found in any source |
+| `sphinxdocs` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from sphinx |
 | `doxygen` | cached | - | ⏭️ Skipped | - | Already exists |
 | `javadoc` | - | - | ❌ Failed | - | Not found in any source |
 | `jsdoc` | - | - | ❌ Failed | - | Not found in any source |
@@ -1302,22 +1302,22 @@
 | `docsify` | cached | - | ⏭️ Skipped | - | Already exists |
 | `nextra` | cached | - | ⏭️ Skipped | - | Already exists |
 | `starlightdocs` | - | - | ❌ Failed | - | Not found in any source |
-| `zolassg` | - | - | ❌ Failed | - | Not found in any source |
+| `zolassg` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from zola |
 | `eleventy` | cached | - | ⏭️ Skipped | - | Already exists |
 | `hexo` | cached | - | ⏭️ Skipped | - | Already exists |
 | `middlemanssg` | - | - | ❌ Failed | - | Not found in any source |
 | `notion` | cached | - | ⏭️ Skipped | - | Already exists |
 | `obsidian` | cached | - | ⏭️ Skipped | - | Already exists |
-| `roam` | - | - | ❌ Failed | - | Not found in any source |
+| `roam` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from roam-research |
 | `logseq` | cached | - | ⏭️ Skipped | - | Already exists |
 | `todoist` | cached | - | ⏭️ Skipped | - | Already exists |
 | `evernote` | cached | - | ⏭️ Skipped | - | Already exists |
-| `onenote` | - | - | ❌ Failed | - | Not found in any source |
+| `onenote` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from microsoft-onenote |
 | `googlekeep` | cached | - | ⏭️ Skipped | - | Already exists |
 | `bearnotes` | - | - | ❌ Failed | - | Not found in any source |
 | `craftdocs` | - | - | ❌ Failed | - | Not found in any source |
 | `notesnook` | cached | - | ⏭️ Skipped | - | Already exists |
-| `joplinnotes` | - | - | ❌ Failed | - | Not found in any source |
+| `joplinnotes` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from joplin |
 | `standardnotes` | - | - | ❌ Failed | - | Not found in any source |
 | `simplenote` | cached | - | ⏭️ Skipped | - | Already exists |
 | `anytype` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1327,19 +1327,19 @@
 | `asana` | cached | - | ⏭️ Skipped | - | Already exists |
 | `linear` | cached | - | ⏭️ Skipped | - | Already exists |
 | `airtable` | cached | - | ⏭️ Skipped | - | Already exists |
-| `mondaycom` | - | - | ❌ Failed | - | Not found in any source |
+| `mondaycom` | theSVG | default | ✅ Added | ⚪ Added white fill | aliased from monday |
 | `clickup` | cached | - | ⏭️ Skipped | - | Already exists |
 | `jira` | cached | - | ⏭️ Skipped | - | Already exists |
 | `basecamp` | cached | - | ⏭️ Skipped | - | Already exists |
 | `wrike` | - | - | ❌ Failed | - | Not found in any source |
 | `smartsheet` | - | - | ❌ Failed | - | Not found in any source |
-| `shortcutapp` | - | - | ❌ Failed | - | Not found in any source |
+| `shortcutapp` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from shortcut |
 | `teamworkpm` | - | - | ❌ Failed | - | Not found in any source |
-| `hiveproject` | - | - | ❌ Failed | - | Not found in any source |
+| `hiveproject` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from hive |
 | `productboard` | cached | - | ⏭️ Skipped | - | Already exists |
 | `ahaio` | - | - | ❌ Failed | - | Not found in any source |
 | `miro` | cached | - | ⏭️ Skipped | - | Already exists |
-| `muralapp` | - | - | ❌ Failed | - | Not found in any source |
+| `muralapp` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from mural |
 | `slack` | cached | - | ⏭️ Skipped | - | Already exists |
 | `discord` | cached | - | ⏭️ Skipped | - | Already exists |
 | `telegram` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1347,16 +1347,16 @@
 | `zoom` | cached | - | ⏭️ Skipped | - | Already exists |
 | `microsoftteams` | - | - | ❌ Failed | - | Not found in any source |
 | `googlemeet` | cached | - | ⏭️ Skipped | - | Already exists |
-| `webexcisco` | - | - | ❌ Failed | - | Not found in any source |
+| `webexcisco` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from webex |
 | `skype` | cached | - | ⏭️ Skipped | - | Already exists |
-| `signalapp` | - | - | ❌ Failed | - | Not found in any source |
+| `signalapp` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from signal |
 | `viber` | cached | - | ⏭️ Skipped | - | Already exists |
 | `wechat` | cached | - | ⏭️ Skipped | - | Already exists |
-| `lineapp` | - | - | ❌ Failed | - | Not found in any source |
+| `lineapp` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from line |
 | `mattermost` | cached | - | ⏭️ Skipped | - | Already exists |
 | `rocketchat` | - | - | ❌ Failed | - | Not found in any source |
 | `twistapp` | - | - | ❌ Failed | - | Not found in any source |
-| `frontapp` | - | - | ❌ Failed | - | Not found in any source |
+| `frontapp` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from front |
 | `intercom` | cached | - | ⏭️ Skipped | - | Already exists |
 | `zendesk` | cached | - | ⏭️ Skipped | - | Already exists |
 | `freshdesk` | - | - | ❌ Failed | - | Not found in any source |
@@ -1370,7 +1370,7 @@
 | `blender` | cached | - | ⏭️ Skipped | - | Already exists |
 | `canva` | cached | - | ⏭️ Skipped | - | Already exists |
 | `invision` | cached | - | ⏭️ Skipped | - | Already exists |
-| `framerdesign` | - | - | ❌ Failed | - | Not found in any source |
+| `framerdesign` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from framer |
 | `zeplin` | - | - | ❌ Failed | - | Not found in any source |
 | `principleapp` | - | - | ❌ Failed | - | Not found in any source |
 | `protopie` | - | - | ❌ Failed | - | Not found in any source |
@@ -1381,10 +1381,10 @@
 | `davinciresolve` | cached | - | ⏭️ Skipped | - | Already exists |
 | `finalcutpro` | - | - | ❌ Failed | - | Not found in any source |
 | `cinema4d` | cached | - | ⏭️ Skipped | - | Already exists |
-| `mayaautodesk` | - | - | ❌ Failed | - | Not found in any source |
+| `mayaautodesk` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from maya |
 | `zbrush` | - | - | ❌ Failed | - | Not found in any source |
 | `substancepainter` | - | - | ❌ Failed | - | Not found in any source |
-| `houdinifx` | - | - | ❌ Failed | - | Not found in any source |
+| `houdinifx` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from houdini |
 | `krita` | cached | - | ⏭️ Skipped | - | Already exists |
 | `twitter` | cached | - | ⏭️ Skipped | - | Already exists |
 | `x` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1408,7 +1408,7 @@
 | `kofi` | cached | - | ⏭️ Skipped | - | Already exists |
 | `producthunt` | cached | - | ⏭️ Skipped | - | Already exists |
 | `stackoverflow` | cached | - | ⏭️ Skipped | - | Already exists |
-| `discourseforum` | - | - | ❌ Failed | - | Not found in any source |
+| `discourseforum` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from discourse |
 | `quora` | cached | - | ⏭️ Skipped | - | Already exists |
 | `stackexchange` | cached | - | ⏭️ Skipped | - | Already exists |
 | `indiehackers` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1423,7 +1423,7 @@
 | `vimeo` | cached | - | ⏭️ Skipped | - | Already exists |
 | `obsstudio` | cached | - | ⏭️ Skipped | - | Already exists |
 | `streamlabs` | cached | - | ⏭️ Skipped | - | Already exists |
-| `audacityaudio` | - | - | ❌ Failed | - | Not found in any source |
+| `audacityaudio` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from audacity |
 | `abletonlive` | - | - | ❌ Failed | - | Not found in any source |
 | `flstudio` | - | - | ❌ Failed | - | Not found in any source |
 | `logicpro` | - | - | ❌ Failed | - | Not found in any source |
@@ -1435,40 +1435,40 @@
 | `mixcloud` | cached | - | ⏭️ Skipped | - | Already exists |
 | `mailchimp` | cached | - | ⏭️ Skipped | - | Already exists |
 | `sendgrid` | cached | - | ⏭️ Skipped | - | Already exists |
-| `postmarkapp` | - | - | ❌ Failed | - | Not found in any source |
+| `postmarkapp` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from postmark |
 | `mailgun` | cached | - | ⏭️ Skipped | - | Already exists |
 | `klaviyo` | - | - | ❌ Failed | - | Not found in any source |
-| `hubspotmarketing` | - | - | ❌ Failed | - | Not found in any source |
+| `hubspotmarketing` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from hubspot |
 | `activecampaign` | - | - | ❌ Failed | - | Not found in any source |
 | `convertkit` | - | - | ❌ Failed | - | Not found in any source |
 | `brevo` | cached | - | ⏭️ Skipped | - | Already exists |
-| `constantcontact` | - | - | ❌ Failed | - | Not found in any source |
+| `constantcontact` | theSVG | default | ✅ Added | ⚪ Added white fill | aliased from constant-contact |
 | `googletagmanager` | cached | - | ⏭️ Skipped | - | Already exists |
 | `googleads` | cached | - | ⏭️ Skipped | - | Already exists |
 | `facebookads` | - | - | ❌ Failed | - | Not found in any source |
 | `optimizely` | - | - | ❌ Failed | - | Not found in any source |
-| `vwotesting` | - | - | ❌ Failed | - | Not found in any source |
+| `vwotesting` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from vwo |
 | `stripe` | cached | - | ⏭️ Skipped | - | Already exists |
 | `paypal` | cached | - | ⏭️ Skipped | - | Already exists |
-| `squarepayments` | - | - | ❌ Failed | - | Not found in any source |
+| `squarepayments` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from square |
 | `braintree` | cached | - | ⏭️ Skipped | - | Already exists |
 | `razorpay` | cached | - | ⏭️ Skipped | - | Already exists |
 | `adyen` | cached | - | ⏭️ Skipped | - | Already exists |
 | `klarna` | cached | - | ⏭️ Skipped | - | Already exists |
 | `afterpay` | cached | - | ⏭️ Skipped | - | Already exists |
-| `wisetransfer` | - | - | ❌ Failed | - | Not found in any source |
+| `wisetransfer` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from wise |
 | `revolut` | cached | - | ⏭️ Skipped | - | Already exists |
 | `plaid` | cached | - | ⏭️ Skipped | - | Already exists |
 | `chargebee` | - | - | ❌ Failed | - | Not found in any source |
 | `recurly` | - | - | ❌ Failed | - | Not found in any source |
-| `coinbasecommerce` | - | - | ❌ Failed | - | Not found in any source |
+| `coinbasecommerce` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from coinbase |
 | `googlechrome` | cached | - | ⏭️ Skipped | - | Already exists |
-| `mozillafirefox` | - | - | ❌ Failed | - | Not found in any source |
-| `safaribrowser` | - | - | ❌ Failed | - | Not found in any source |
-| `microsoftedge` | - | - | ❌ Failed | - | Not found in any source |
-| `bravebrowser` | - | - | ❌ Failed | - | Not found in any source |
-| `operabrowser` | - | - | ❌ Failed | - | Not found in any source |
-| `arcbrowser` | - | - | ❌ Failed | - | Not found in any source |
+| `mozillafirefox` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from firefox |
+| `safaribrowser` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from safari |
+| `microsoftedge` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from edge |
+| `bravebrowser` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from brave |
+| `operabrowser` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from opera |
+| `arcbrowser` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from arc |
 | `vivaldi` | cached | - | ⏭️ Skipped | - | Already exists |
 | `coursera` | cached | - | ⏭️ Skipped | - | Already exists |
 | `udemy` | cached | - | ⏭️ Skipped | - | Already exists |
@@ -1479,12 +1479,12 @@
 | `hackerrank` | cached | - | ⏭️ Skipped | - | Already exists |
 | `codewars` | cached | - | ⏭️ Skipped | - | Already exists |
 | `pluralsight` | cached | - | ⏭️ Skipped | - | Already exists |
-| `eggheadio` | - | - | ❌ Failed | - | Not found in any source |
+| `eggheadio` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from egghead |
 | `codecademy` | cached | - | ⏭️ Skipped | - | Already exists |
 | `brilliantorg` | - | - | ❌ Failed | - | Not found in any source |
-| `rosrobotics` | - | - | ❌ Failed | - | Not found in any source |
+| `rosrobotics` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from ros |
 | `ros2` | - | - | ❌ Failed | - | Not found in any source |
-| `gazebosim` | - | - | ❌ Failed | - | Not found in any source |
+| `gazebosim` | theSVG | default | ✅ Added | ➖ Unchanged | aliased from gazebo |
 | `webots` | - | - | ❌ Failed | - | Not found in any source |
 | `mujoco` | - | - | ❌ Failed | - | Not found in any source |
 | `pybullet` | - | - | ❌ Failed | - | Not found in any source |
@@ -1519,7 +1519,7 @@
 | `lenovo` | cached | - | ⏭️ Skipped | - | Already exists |
 | `samsung` | cached | - | ⏭️ Skipped | - | Already exists |
 | `sony` | cached | - | ⏭️ Skipped | - | Already exists |
-| `lgelectronics` | - | - | ❌ Failed | - | Not found in any source |
+| `lgelectronics` | theSVG | default | ✅ Added | 🔀 Moved root fill | aliased from lg |
 | `huawei` | cached | - | ⏭️ Skipped | - | Already exists |
 | `xiaomi` | cached | - | ⏭️ Skipped | - | Already exists |
 | `tesla` | cached | - | ⏭️ Skipped | - | Already exists |

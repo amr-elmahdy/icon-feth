@@ -1,6 +1,6 @@
 # Failed Icons
 
-Generated: 2026-09-15T05:29:54.182Z
+Generated: 2026-09-15T05:36:37.662Z
 
 | Icon | Reason |
 |------|--------|
@@ -268,16 +268,11 @@ Generated: 2026-09-15T05:29:54.182Z
 | `kitty` | Not found in any source |
 | `tilix` | Not found in any source |
 | `terminator` | Not found in any source |
-| `pip` | Not found in any source |
 | `cargo` | Not found in any source |
-| `gem` | Not found in any source |
-| `npmregistry` | Not found in any source |
 | `crates` | Not found in any source |
-| `mavencentral` | Not found in any source |
 | `dockershub` | Not found in any source |
 | `ghcr` | Not found in any source |
 | `nexus` | Not found in any source |
-| `swcrust` | Not found in any source |
 | `tsup` | Not found in any source |
 | `browserify` | Not found in any source |
 | `pipenv` | Not found in any source |
@@ -314,7 +309,6 @@ Generated: 2026-09-15T05:29:54.182Z
 | `changesets` | Not found in any source |
 | `sagemaker` | Not found in any source |
 | `vertexai` | Not found in any source |
-| `cuda` | Not found in any source |
 | `transformerslib` | Not found in any source |
 | `nltk` | Not found in any source |
 | `lightgbm` | Not found in any source |
@@ -333,7 +327,6 @@ Generated: 2026-09-15T05:29:54.182Z
 | `stablebaselines` | Not found in any source |
 | `automatic1111` | Not found in any source |
 | `powerbi` | Not found in any source |
-| `bigquery` | Not found in any source |
 | `redshift` | Not found in any source |
 | `athena` | Not found in any source |
 | `sisense` | Not found in any source |
@@ -354,7 +347,6 @@ Generated: 2026-09-15T05:29:54.182Z
 | `casbin` | Not found in any source |
 | `opapolicy` | Not found in any source |
 | `hashicorpboundary` | Not found in any source |
-| `yubikey` | Not found in any source |
 | `tenable` | Not found in any source |
 | `rapid7` | Not found in any source |
 | `aircrackng` | Not found in any source |
@@ -398,7 +390,6 @@ Generated: 2026-09-15T05:29:54.182Z
 | `scrollzk` | Not found in any source |
 | `aptos` | Not found in any source |
 | `movelanguage` | Not found in any source |
-| `ripplexrp` | Not found in any source |
 | `filecoin` | Not found in any source |
 | `thegraph` | Not found in any source |
 | `aave` | Not found in any source |
@@ -407,7 +398,6 @@ Generated: 2026-09-15T05:29:54.182Z
 | `curvefinance` | Not found in any source |
 | `sushiswap` | Not found in any source |
 | `pancakeswap` | Not found in any source |
-| `trustwallet` | Not found in any source |
 | `ledgerwallet` | Not found in any source |
 | `phantomwallet` | Not found in any source |
 | `rainbowwallet` | Not found in any source |
@@ -423,93 +413,55 @@ Generated: 2026-09-15T05:29:54.182Z
 | `orangepi` | Not found in any source |
 | `bananapi` | Not found in any source |
 | `particledevice` | Not found in any source |
-| `eaglecad` | Not found in any source |
 | `fritzing` | Not found in any source |
-| `mqttprotocol` | Not found in any source |
 | `zwave` | Not found in any source |
 | `lorawan` | Not found in any source |
 | `threadprotocol` | Not found in any source |
-| `matterprotocol` | Not found in any source |
 | `freertos` | Not found in any source |
-| `zephyros` | Not found in any source |
 | `mbedos` | Not found in any source |
 | `mkdocs` | Not found in any source |
 | `slate` | Not found in any source |
-| `sphinxdocs` | Not found in any source |
 | `javadoc` | Not found in any source |
 | `jsdoc` | Not found in any source |
 | `typedoc` | Not found in any source |
 | `asciidoc` | Not found in any source |
 | `restructuredtext` | Not found in any source |
 | `starlightdocs` | Not found in any source |
-| `zolassg` | Not found in any source |
 | `middlemanssg` | Not found in any source |
-| `roam` | Not found in any source |
-| `onenote` | Not found in any source |
 | `bearnotes` | Not found in any source |
 | `craftdocs` | Not found in any source |
-| `joplinnotes` | Not found in any source |
 | `standardnotes` | Not found in any source |
 | `dendron` | Not found in any source |
 | `remnote` | Not found in any source |
-| `mondaycom` | Not found in any source |
 | `wrike` | Not found in any source |
 | `smartsheet` | Not found in any source |
-| `shortcutapp` | Not found in any source |
 | `teamworkpm` | Not found in any source |
-| `hiveproject` | Not found in any source |
 | `ahaio` | Not found in any source |
-| `muralapp` | Not found in any source |
 | `microsoftteams` | Not found in any source |
-| `webexcisco` | Not found in any source |
-| `signalapp` | Not found in any source |
-| `lineapp` | Not found in any source |
 | `rocketchat` | Not found in any source |
 | `twistapp` | Not found in any source |
-| `frontapp` | Not found in any source |
 | `freshdesk` | Not found in any source |
-| `framerdesign` | Not found in any source |
 | `zeplin` | Not found in any source |
 | `principleapp` | Not found in any source |
 | `protopie` | Not found in any source |
 | `procreate` | Not found in any source |
 | `finalcutpro` | Not found in any source |
-| `mayaautodesk` | Not found in any source |
 | `zbrush` | Not found in any source |
 | `substancepainter` | Not found in any source |
-| `houdinifx` | Not found in any source |
-| `discourseforum` | Not found in any source |
-| `audacityaudio` | Not found in any source |
 | `abletonlive` | Not found in any source |
 | `flstudio` | Not found in any source |
 | `logicpro` | Not found in any source |
 | `garageband` | Not found in any source |
 | `cubase` | Not found in any source |
-| `postmarkapp` | Not found in any source |
 | `klaviyo` | Not found in any source |
-| `hubspotmarketing` | Not found in any source |
 | `activecampaign` | Not found in any source |
 | `convertkit` | Not found in any source |
-| `constantcontact` | Not found in any source |
 | `facebookads` | Not found in any source |
 | `optimizely` | Not found in any source |
-| `vwotesting` | Not found in any source |
-| `squarepayments` | Not found in any source |
-| `wisetransfer` | Not found in any source |
 | `chargebee` | Not found in any source |
 | `recurly` | Not found in any source |
-| `coinbasecommerce` | Not found in any source |
-| `mozillafirefox` | Not found in any source |
-| `safaribrowser` | Not found in any source |
-| `microsoftedge` | Not found in any source |
-| `bravebrowser` | Not found in any source |
-| `operabrowser` | Not found in any source |
-| `arcbrowser` | Not found in any source |
-| `eggheadio` | Not found in any source |
 | `brilliantorg` | Not found in any source |
-| `rosrobotics` | Not found in any source |
 | `ros2` | Not found in any source |
-| `gazebosim` | Not found in any source |
 | `webots` | Not found in any source |
 | `mujoco` | Not found in any source |
 | `pybullet` | Not found in any source |
@@ -521,7 +473,6 @@ Generated: 2026-09-15T05:29:54.182Z
 | `microsoftpowerpoint` | Not found in any source |
 | `googleworkspace` | Not found in any source |
 | `wpsoffice` | Not found in any source |
-| `lgelectronics` | Not found in any source |
 | `tsmc` | Not found in any source |
 | `canon` | Not found in any source |
 | `philips` | Not found in any source |
