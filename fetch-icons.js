@@ -203,13 +203,14 @@ function normalizeFill(svgContent) {
   }
 
   // --- Case 3: Single shape with a near-black color ---
-  if (shapeCount === 1 && fills.length === 1 && isNearBlack(fills[0])) {
-    const cleaned = svgContent.replace(
-      /\bfill=["'][^"']+["']/gi,
-      'fill="#000000"'
-    );
-    return { content: cleaned, action: 'normalized-black' };
-  }
+// Convert to white so it's visible on dark backgrounds.
+if (shapeCount === 1 && fills.length === 1 && isNearBlack(fills[0])) {
+  const cleaned = svgContent.replace(
+    /\bfill=["'][^"']+["']/gi,
+    'fill="#ffffff"'
+  );
+  return { content: cleaned, action: 'normalized-white' };
+}
 
   // --- Case 4: Everything else stays as-is ---
   return { content: svgContent, action: 'unchanged' };
