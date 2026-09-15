@@ -37,6 +37,37 @@ function loadAliases() {
 }
 
 /**
+ * Returns true if a color is black or near-black.
+ * Accepts hex (3 or 6 digits, with or without #) and "black".
+ */
+function isNearBlack(color) {
+  if (!color) return false;
+
+  const clean = color.trim().toLowerCase();
+  if (clean === 'black') return true;
+  if (clean === 'none' || clean === 'transparent') return false;
+
+  const hex = clean.replace(/^#/, '');
+  let r, g, b;
+
+  if (hex.length === 3) {
+    r = parseInt(hex[0] + hex[0], 16);
+    g = parseInt(hex[1] + hex[1], 16);
+    b = parseInt(hex[2] + hex[2], 16);
+  } else if (hex.length === 6) {
+    r = parseInt(hex.slice(0, 2), 16);
+    g = parseInt(hex.slice(2, 4), 16);
+    b = parseInt(hex.slice(4, 6), 16);
+  } else {
+    return false;
+  }
+
+  if (isNaN(r) || isNaN(g) || isNaN(b)) return false;
+
+  return r < 50 && g < 50 && b < 50;
+}
+
+/**
  * Parse icons.txt into a flat list of icon names.
  * - Lines starting with '#' are category headers → ignored
  * - Lines starting with '//' are comments → ignored
@@ -132,30 +163,71 @@ const SOURCES = [
 // ---------- SVG Processing ----------
 
 function normalizeFill(svgContent) {
+  // --- Case 1: Root <svg> has fill/color ---
   const rootFillMatch = svgContent.match(/<svg[^>]*\s(fill|color)="([^"]+)"/i);
-  if (!rootFillMatch) return svgContent;
 
-  const color = rootFillMatch[2];
-  let cleaned = svgContent.replace(
-    new RegExp(`\\s${rootFillMatch[1]}="${color}"`, 'i'),
-    ''
-  );
+  if (rootFillMatch) {
+    const color = rootFillMatch[2];
+    let cleaned = svgContent.replace(
+      new RegExp(`\\s${rootFillMatch[1]}="${color}"`, 'i'),
+      ''
+    );
+    cleaned = cleaned.replace(
+      /<(path|circle|rect|polygon|polyline|line|ellipse)([^>]*?)(\/?)>/gi,
+      (match, tag, attrs, selfClose) => {
+        if (/\sfill=/i.test(attrs) || /\sstyle=/i.test(attrs)) return match;
+        return `<${tag}${attrs} fill="${color}"${selfClose}>`;
+      }
+    );
+    return { content: cleaned, action: 'moved-root-fill' };
+  }
 
-  cleaned = cleaned.replace(
-    /<(path|circle|rect|polygon|polyline|line|ellipse)([^>]*?)(\/?)>/gi,
-    (match, tag, attrs, selfClose) => {
-      if (/\sfill=/i.test(attrs) || /\sstyle=/i.test(attrs)) return match;
-      return `<${tag}${attrs} fill="${color}"${selfClose}>`;
-    }
-  );
+  // --- Analyze current fills ---
+  const fillMatches = [...svgContent.matchAll(/\bfill=["']([^"']+)["']/gi)];
+  const fills = fillMatches.map((m) => m[1]);
 
-  return cleaned;
+  const shapeCount = (
+    svgContent.match(/<(path|circle|rect|polygon|polyline|line|ellipse)\b/gi) || []
+  ).length;
+
+  // --- Case 2: No fill anywhere + has shape elements ---
+  if (fills.length === 0 && shapeCount > 0) {
+    const cleaned = svgContent.replace(
+      /<(path|circle|rect|polygon|polyline|line|ellipse)([^>]*?)(\/?)>/gi,
+      (match, tag, attrs, selfClose) => {
+        if (/\sfill=/i.test(attrs) || /\sstyle=/i.test(attrs)) return match;
+        return `<${tag}${attrs} fill="#ffffff"${selfClose}>`;
+      }
+    );
+    return { content: cleaned, action: 'added-white-fill' };
+  }
+
+  // --- Case 3: Single shape with a near-black color ---
+  if (shapeCount === 1 && fills.length === 1 && isNearBlack(fills[0])) {
+    const cleaned = svgContent.replace(
+      /\bfill=["'][^"']+["']/gi,
+      'fill="#000000"'
+    );
+    return { content: cleaned, action: 'normalized-black' };
+  }
+
+  // --- Case 4: Everything else stays as-is ---
+  return { content: svgContent, action: 'unchanged' };
 }
 
 function addSourceComment(svgContent, source, sourceUrl) {
   const comment = `\n<!-- Source: ${source} (${sourceUrl}) -->\n`;
   return svgContent.replace(/(<svg[^>]*>)/i, `$1${comment}`);
 }
+
+// ---------- Report Helpers ----------
+
+const COLOR_ACTION_LABELS = {
+  'moved-root-fill': '🔀 Moved root fill',
+  'added-white-fill': '⚪ Added white fill',
+  'normalized-black': '⚫ Normalized to black',
+  'unchanged': '➖ Unchanged',
+};
 
 // ---------- Main ----------
 
@@ -197,6 +269,7 @@ function main() {
         variant: '-',
         status: '⏭️ Skipped',
         note: 'Already exists',
+        colorAction: '-',
       });
       continue;
     }
@@ -215,14 +288,17 @@ function main() {
         variant: '-',
         status: '❌ Failed',
         note: 'Not found in any source',
+        colorAction: '-',
       });
       continue;
     }
 
     // Process SVG
     const rawSvg = fs.readFileSync(resolved.path, 'utf8');
-    const filled = normalizeFill(rawSvg);
-    if (filled !== rawSvg) normalized++;
+    const result = normalizeFill(rawSvg);
+    const filled = result.content;
+
+    if (result.action !== 'unchanged') normalized++;
 
     const sourceUrl =
       resolved.source === 'theSVG'
@@ -245,12 +321,13 @@ function main() {
       variant: resolved.variant,
       status: '✅ Added',
       note,
+      colorAction: result.action,
     });
   }
 
   const finishedAt = new Date().toISOString();
 
-  // Build summary
+  // --- Build summary ---
   const bySource = {};
   for (const r of results) {
     if (r.status.includes('Added')) {
@@ -258,7 +335,15 @@ function main() {
     }
   }
 
-  const failed = results.filter(r => r.status.includes('Failed'));
+  const failed = results.filter((r) => r.status.includes('Failed'));
+
+  // --- Color actions summary ---
+  const colorActions = {};
+  for (const r of results) {
+    if (r.colorAction && r.colorAction !== '-') {
+      colorActions[r.colorAction] = (colorActions[r.colorAction] || 0) + 1;
+    }
+  }
 
   // ---------- Write Markdown Report ----------
   const md = [];
@@ -280,6 +365,8 @@ function main() {
   md.push(`| 🎨 Fill Normalized | ${normalized} |`);
   md.push(`| **Total** | **${results.length}** |`);
   md.push('');
+
+  // Icons by source
   md.push('## Icons by Source');
   md.push('');
   md.push('| Source | Count |');
@@ -288,15 +375,32 @@ function main() {
     md.push(`| ${source} | ${count} |`);
   }
   md.push('');
+
+  // Color normalization
+  md.push('## Color Normalization');
+  md.push('');
+  md.push('| Action | Count |');
+  md.push('|--------|-------|');
+  for (const [action, count] of Object.entries(colorActions)) {
+    const label = COLOR_ACTION_LABELS[action] || action;
+    md.push(`| ${label} | ${count} |`);
+  }
+  md.push('');
+
   md.push('---');
   md.push('');
   md.push('## Detailed Results');
   md.push('');
-  md.push('| Icon | Source | Variant | Status | Note |');
-  md.push('|------|--------|---------|--------|------|');
+  md.push('| Icon | Source | Variant | Status | Color Action | Note |');
+  md.push('|------|--------|---------|--------|--------------|------|');
 
   for (const r of results) {
-    md.push(`| \`${r.id}\` | ${r.source} | ${r.variant} | ${r.status} | ${r.note} |`);
+    const colorLabel = r.colorAction && r.colorAction !== '-'
+      ? (COLOR_ACTION_LABELS[r.colorAction] || r.colorAction)
+      : '-';
+    md.push(
+      `| \`${r.id}\` | ${r.source} | ${r.variant} | ${r.status} | ${colorLabel} | ${r.note} |`
+    );
   }
 
   md.push('');
