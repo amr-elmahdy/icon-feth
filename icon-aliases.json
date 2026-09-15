@@ -899,7 +899,7 @@
   "microsoft": ["ms", "microsoft-corp"],
   "apple": ["apple-inc"],
   "meta": ["meta-facebook"],
-  "openai-gpt": ["gpt", "chatgpt"]
+  "openai-gpt": ["gpt", "chatgpt"],
   "pip": ["pypi", "python-package-index"],
   "cargo": ["rustcargo", "cargo-rust"],
   "gem": ["rubygems", "ruby-gems", "rubygem"],
