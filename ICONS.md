@@ -1,6 +1,6 @@
 ## Available Icons
 
-Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g. `?i=flutter,html,swift`.
+Total icons: **979**. Use the `id` shown next to each icon in your API call, e.g. `?i=flutter,html,swift`.
 
 ### Table of Contents
 
@@ -167,18 +167,26 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=prolog&perline=1" alt="prolog" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>scheme</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=scheme&perline=1" alt="scheme" width="48" height="48"></td>
       <td align="center"><code>v</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=v&perline=1" alt="v" width="48" height="48"></td>
       <td align="center"><code>haxe</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=haxe&perline=1" alt="haxe" width="48" height="48"></td>
-      <td align="center"><code>elm</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=elm&perline=1" alt="elm" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>elm</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=elm&perline=1" alt="elm" width="48" height="48"></td>
       <td align="center"><code>purescript</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=purescript&perline=1" alt="purescript" width="48" height="48"></td>
       <td align="center"><code>reason</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=reason&perline=1" alt="reason" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>lisp</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=lisp&perline=1" alt="lisp" width="48" height="48"></td>
+      <td align="center"><code>assembly</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=assembly&perline=1" alt="assembly" width="48" height="48"></td>
       <td align="center"><code>labview</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=labview&perline=1" alt="labview" width="48" height="48"></td>
     </tr>
@@ -207,18 +215,26 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=coffeescript&perline=1" alt="coffeescript" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>nix</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=nix&perline=1" alt="nix" width="48" height="48"></td>
       <td align="center"><code>apl</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=apl&perline=1" alt="apl" width="48" height="48"></td>
       <td align="center"><code>vala</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=vala&perline=1" alt="vala" width="48" height="48"></td>
-      <td align="center"><code>opencl</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=opencl&perline=1" alt="opencl" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>opencl</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=opencl&perline=1" alt="opencl" width="48" height="48"></td>
       <td align="center"><code>ring</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=ring&perline=1" alt="ring" width="48" height="48"></td>
+      <td align="center"><code>redlang</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=redlang&perline=1" alt="redlang" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>dyalog</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=dyalog&perline=1" alt="dyalog" width="48" height="48"></td>
+      <td></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -246,18 +262,26 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=wasmer&perline=1" alt="wasmer" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>v8engine</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=v8engine&perline=1" alt="v8engine" width="48" height="48"></td>
       <td align="center"><code>pypy</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=pypy&perline=1" alt="pypy" width="48" height="48"></td>
       <td align="center"><code>mono</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=mono&perline=1" alt="mono" width="48" height="48"></td>
-      <td align="center"><code>spidermonkey</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=spidermonkey&perline=1" alt="spidermonkey" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>hermesengine</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hermesengine&perline=1" alt="hermesengine" width="48" height="48"></td>
+      <td align="center"><code>spidermonkey</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=spidermonkey&perline=1" alt="spidermonkey" width="48" height="48"></td>
       <td align="center"><code>llvm</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=llvm&perline=1" alt="llvm" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>gcc</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=gcc&perline=1" alt="gcc" width="48" height="48"></td>
+      <td></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -305,32 +329,32 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=json&perline=1" alt="json" width="48" height="48"></td>
       <td align="center"><code>svg</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=svg&perline=1" alt="svg" width="48" height="48"></td>
-      <td align="center"><code>liquid</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=liquid&perline=1" alt="liquid" width="48" height="48"></td>
+      <td align="center"><code>jinja2</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=jinja2&perline=1" alt="jinja2" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>liquid</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=liquid&perline=1" alt="liquid" width="48" height="48"></td>
       <td align="center"><code>mjml</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=mjml&perline=1" alt="mjml" width="48" height="48"></td>
       <td align="center"><code>scss</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=scss&perline=1" alt="scss" width="48" height="48"></td>
-      <td align="center"><code>cssmodules</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cssmodules&perline=1" alt="cssmodules" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>cssmodules</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cssmodules&perline=1" alt="cssmodules" width="48" height="48"></td>
       <td align="center"><code>unocss</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=unocss&perline=1" alt="unocss" width="48" height="48"></td>
       <td align="center"><code>windicss</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=windicss&perline=1" alt="windicss" width="48" height="48"></td>
-      <td align="center"><code>bulma</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bulma&perline=1" alt="bulma" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>bulma</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bulma&perline=1" alt="bulma" width="48" height="48"></td>
+      <td align="center"><code>foundationcss</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=foundationcss&perline=1" alt="foundationcss" width="48" height="48"></td>
       <td align="center"><code>materializecss</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=materializecss&perline=1" alt="materializecss" width="48" height="48"></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -390,32 +414,40 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
     <tr>
       <td align="center"><code>marko</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=marko&perline=1" alt="marko" width="48" height="48"></td>
+      <td align="center"><code>extjs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=extjs&perline=1" alt="extjs" width="48" height="48"></td>
       <td align="center"><code>sencha</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=sencha&perline=1" alt="sencha" width="48" height="48"></td>
-      <td align="center"><code>inferno</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=inferno&perline=1" alt="inferno" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>inferno</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=inferno&perline=1" alt="inferno" width="48" height="48"></td>
       <td align="center"><code>aurelia</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=aurelia&perline=1" alt="aurelia" width="48" height="48"></td>
       <td align="center"><code>stimulus</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=stimulus&perline=1" alt="stimulus" width="48" height="48"></td>
-      <td align="center"><code>hotwire</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hotwire&perline=1" alt="hotwire" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>hotwire</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hotwire&perline=1" alt="hotwire" width="48" height="48"></td>
+      <td align="center"><code>freshdeno</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=freshdeno&perline=1" alt="freshdeno" width="48" height="48"></td>
       <td align="center"><code>blazor</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=blazor&perline=1" alt="blazor" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>nx</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=nx&perline=1" alt="nx" width="48" height="48"></td>
       <td align="center"><code>turborepo</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=turborepo&perline=1" alt="turborepo" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>vike</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=vike&perline=1" alt="vike" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>imba</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=imba&perline=1" alt="imba" width="48" height="48"></td>
+      <td></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -455,8 +487,8 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=swr&perline=1" alt="swr" width="48" height="48"></td>
       <td align="center"><code>reactquery</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=reactquery&perline=1" alt="reactquery" width="48" height="48"></td>
-      <td></td>
-      <td></td>
+      <td align="center"><code>tanstackquery</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=tanstackquery&perline=1" alt="tanstackquery" width="48" height="48"></td>
     </tr>
   </tbody>
 </table>
@@ -484,32 +516,40 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
     <tr>
       <td align="center"><code>vuetify</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=vuetify&perline=1" alt="vuetify" width="48" height="48"></td>
+      <td align="center"><code>elementui</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=elementui&perline=1" alt="elementui" width="48" height="48"></td>
       <td align="center"><code>primevue</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=primevue&perline=1" alt="primevue" width="48" height="48"></td>
-      <td align="center"><code>semanticui</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=semanticui&perline=1" alt="semanticui" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>semanticui</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=semanticui&perline=1" alt="semanticui" width="48" height="48"></td>
       <td align="center"><code>storybook</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=storybook&perline=1" alt="storybook" width="48" height="48"></td>
       <td align="center"><code>nextui</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=nextui&perline=1" alt="nextui" width="48" height="48"></td>
-      <td align="center"><code>mantine</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=mantine&perline=1" alt="mantine" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>mantine</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=mantine&perline=1" alt="mantine" width="48" height="48"></td>
       <td align="center"><code>daisyui</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=daisyui&perline=1" alt="daisyui" width="48" height="48"></td>
+      <td align="center"><code>blueprintjs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=blueprintjs&perline=1" alt="blueprintjs" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>grommet</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=grommet&perline=1" alt="grommet" width="48" height="48"></td>
       <td align="center"><code>reactbootstrap</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=reactbootstrap&perline=1" alt="reactbootstrap" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>primereact</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=primereact&perline=1" alt="primereact" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>primeng</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=primeng&perline=1" alt="primeng" width="48" height="48"></td>
+      <td align="center"><code>devextreme</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=devextreme&perline=1" alt="devextreme" width="48" height="48"></td>
       <td></td>
       <td></td>
     </tr>
@@ -537,8 +577,24 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=p5js&perline=1" alt="p5js" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>konvajs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=konvajs&perline=1" alt="konvajs" width="48" height="48"></td>
       <td align="center"><code>pixijs</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=pixijs&perline=1" alt="pixijs" width="48" height="48"></td>
+      <td align="center"><code>fabricjs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=fabricjs&perline=1" alt="fabricjs" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>paperjs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=paperjs&perline=1" alt="paperjs" width="48" height="48"></td>
+      <td align="center"><code>motionone</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=motionone&perline=1" alt="motionone" width="48" height="48"></td>
+      <td align="center"><code>reactspring</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=reactspring&perline=1" alt="reactspring" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>velocityjs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=velocityjs&perline=1" alt="velocityjs" width="48" height="48"></td>
       <td align="center"><code>rive</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=rive&perline=1" alt="rive" width="48" height="48"></td>
       <td></td>
@@ -560,12 +616,20 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=plotly&perline=1" alt="plotly" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>echarts</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=echarts&perline=1" alt="echarts" width="48" height="48"></td>
       <td align="center"><code>visx</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=visx&perline=1" alt="visx" width="48" height="48"></td>
       <td align="center"><code>vega</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=vega&perline=1" alt="vega" width="48" height="48"></td>
-      <td></td>
-      <td></td>
+    </tr>
+    <tr>
+      <td align="center"><code>vegalite</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=vegalite&perline=1" alt="vegalite" width="48" height="48"></td>
+      <td align="center"><code>billboardjs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=billboardjs&perline=1" alt="billboardjs" width="48" height="48"></td>
+      <td align="center"><code>observableplot</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=observableplot&perline=1" alt="observableplot" width="48" height="48"></td>
     </tr>
   </tbody>
 </table>
@@ -587,8 +651,8 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=iconify&perline=1" alt="iconify" width="48" height="48"></td>
       <td align="center"><code>simpleicons</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=simpleicons&perline=1" alt="simpleicons" width="48" height="48"></td>
-      <td></td>
-      <td></td>
+      <td align="center"><code>devicons</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=devicons&perline=1" alt="devicons" width="48" height="48"></td>
     </tr>
   </tbody>
 </table>
@@ -695,50 +759,66 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
     <tr>
       <td align="center"><code>moleculer</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=moleculer&perline=1" alt="moleculer" width="48" height="48"></td>
+      <td align="center"><code>meteor-backend</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=meteor-backend&perline=1" alt="meteor-backend" width="48" height="48"></td>
       <td align="center"><code>strapi</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=strapi&perline=1" alt="strapi" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>keystone</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=keystone&perline=1" alt="keystone" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>directus</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=directus&perline=1" alt="directus" width="48" height="48"></td>
-      <td align="center"><code>blitz</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=blitz&perline=1" alt="blitz" width="48" height="48"></td>
-      <td align="center"><code>phoenix</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=phoenix&perline=1" alt="phoenix" width="48" height="48"></td>
+      <td align="center"><code>payload</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=payload&perline=1" alt="payload" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>blitz</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=blitz&perline=1" alt="blitz" width="48" height="48"></td>
+      <td align="center"><code>redwood</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=redwood&perline=1" alt="redwood" width="48" height="48"></td>
+      <td align="center"><code>trpc-server</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=trpc-server&perline=1" alt="trpc-server" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>phoenix</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=phoenix&perline=1" alt="phoenix" width="48" height="48"></td>
       <td align="center"><code>rails</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=rails&perline=1" alt="rails" width="48" height="48"></td>
       <td align="center"><code>springboot</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=springboot&perline=1" alt="springboot" width="48" height="48"></td>
-      <td align="center"><code>dropwizard</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=dropwizard&perline=1" alt="dropwizard" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>dropwizard</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=dropwizard&perline=1" alt="dropwizard" width="48" height="48"></td>
       <td align="center"><code>ktor</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=ktor&perline=1" alt="ktor" width="48" height="48"></td>
       <td align="center"><code>vapor</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=vapor&perline=1" alt="vapor" width="48" height="48"></td>
-      <td align="center"><code>loopback</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=loopback&perline=1" alt="loopback" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>loopback</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=loopback&perline=1" alt="loopback" width="48" height="48"></td>
       <td align="center"><code>hono</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hono&perline=1" alt="hono" width="48" height="48"></td>
       <td align="center"><code>elysiajs</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=elysiajs&perline=1" alt="elysiajs" width="48" height="48"></td>
-      <td align="center"><code>h3</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=h3&perline=1" alt="h3" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>h3</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=h3&perline=1" alt="h3" width="48" height="48"></td>
       <td align="center"><code>encore</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=encore&perline=1" alt="encore" width="48" height="48"></td>
       <td align="center"><code>iris</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=iris&perline=1" alt="iris" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>tide</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=tide&perline=1" alt="tide" width="48" height="48"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -772,12 +852,12 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hoppscotch&perline=1" alt="hoppscotch" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>brunoapi</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=brunoapi&perline=1" alt="brunoapi" width="48" height="48"></td>
       <td align="center"><code>stoplight</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=stoplight&perline=1" alt="stoplight" width="48" height="48"></td>
       <td align="center"><code>mulesoft</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=mulesoft&perline=1" alt="mulesoft" width="48" height="48"></td>
-      <td></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -807,8 +887,8 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cockroachdb&perline=1" alt="cockroachdb" width="48" height="48"></td>
       <td align="center"><code>teradata</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=teradata&perline=1" alt="teradata" width="48" height="48"></td>
-      <td></td>
-      <td></td>
+      <td align="center"><code>firebirdsql</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=firebirdsql&perline=1" alt="firebirdsql" width="48" height="48"></td>
     </tr>
   </tbody>
 </table>
@@ -854,16 +934,24 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=planetscale&perline=1" alt="planetscale" width="48" height="48"></td>
       <td align="center"><code>neon</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=neon&perline=1" alt="neon" width="48" height="48"></td>
-      <td align="center"><code>clickhouse</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=clickhouse&perline=1" alt="clickhouse" width="48" height="48"></td>
+      <td align="center"><code>timescaledb</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=timescaledb&perline=1" alt="timescaledb" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>clickhouse</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=clickhouse&perline=1" alt="clickhouse" width="48" height="48"></td>
       <td align="center"><code>duckdb</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=duckdb&perline=1" alt="duckdb" width="48" height="48"></td>
       <td align="center"><code>hive</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hive&perline=1" alt="hive" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>couchbase</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=couchbase&perline=1" alt="couchbase" width="48" height="48"></td>
+      <td align="center"><code>hbase</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hbase&perline=1" alt="hbase" width="48" height="48"></td>
+      <td align="center"><code>bigtable</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bigtable&perline=1" alt="bigtable" width="48" height="48"></td>
     </tr>
     <tr>
       <td align="center"><code>cosmosdb</code></td>
@@ -933,14 +1021,14 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=typesense&perline=1" alt="typesense" width="48" height="48"></td>
       <td align="center"><code>solr</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=solr&perline=1" alt="solr" width="48" height="48"></td>
-      <td align="center"><code>milvus</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=milvus&perline=1" alt="milvus" width="48" height="48"></td>
+      <td align="center"><code>sphinxsearch</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=sphinxsearch&perline=1" alt="sphinxsearch" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>milvus</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=milvus&perline=1" alt="milvus" width="48" height="48"></td>
       <td align="center"><code>vespa</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=vespa&perline=1" alt="vespa" width="48" height="48"></td>
-      <td></td>
-      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -978,8 +1066,8 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
     <tr>
       <td align="center"><code>ecto</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=ecto&perline=1" alt="ecto" width="48" height="48"></td>
-      <td></td>
-      <td></td>
+      <td align="center"><code>doctrineorm</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=doctrineorm&perline=1" alt="doctrineorm" width="48" height="48"></td>
       <td></td>
       <td></td>
     </tr>
@@ -1091,6 +1179,14 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cocoapods&perline=1" alt="cocoapods" width="48" height="48"></td>
       <td align="center"><code>fastlane</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=fastlane&perline=1" alt="fastlane" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>googleplayconsole</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=googleplayconsole&perline=1" alt="googleplayconsole" width="48" height="48"></td>
+      <td align="center"><code>appstoreconnect</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=appstoreconnect&perline=1" alt="appstoreconnect" width="48" height="48"></td>
+      <td align="center"><code>cordova</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cordova&perline=1" alt="cordova" width="48" height="48"></td>
     </tr>
   </tbody>
 </table>
@@ -1291,32 +1387,32 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
     <tr>
       <td align="center"><code>concourse</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=concourse&perline=1" alt="concourse" width="48" height="48"></td>
+      <td align="center"><code>semaphore</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=semaphore&perline=1" alt="semaphore" width="48" height="48"></td>
       <td align="center"><code>appveyor</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=appveyor&perline=1" alt="appveyor" width="48" height="48"></td>
-      <td align="center"><code>bamboo</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bamboo&perline=1" alt="bamboo" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>bamboo</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bamboo&perline=1" alt="bamboo" width="48" height="48"></td>
       <td align="center"><code>teamcity</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=teamcity&perline=1" alt="teamcity" width="48" height="48"></td>
       <td align="center"><code>travisci</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=travisci&perline=1" alt="travisci" width="48" height="48"></td>
-      <td align="center"><code>harness</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=harness&perline=1" alt="harness" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>harness</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=harness&perline=1" alt="harness" width="48" height="48"></td>
       <td align="center"><code>octopusdeploy</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=octopusdeploy&perline=1" alt="octopusdeploy" width="48" height="48"></td>
       <td align="center"><code>codefresh</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=codefresh&perline=1" alt="codefresh" width="48" height="48"></td>
-      <td align="center"><code>gocd</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=gocd&perline=1" alt="gocd" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>gocd</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=gocd&perline=1" alt="gocd" width="48" height="48"></td>
       <td align="center"><code>bitrise</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bitrise&perline=1" alt="bitrise" width="48" height="48"></td>
-      <td></td>
-      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -1527,14 +1623,30 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
     <tr>
       <td align="center"><code>replit</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=replit&perline=1" alt="replit" width="48" height="48"></td>
-      <td align="center"><code>codeblocks</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=codeblocks&perline=1" alt="codeblocks" width="48" height="48"></td>
-      <td align="center"><code>lapce</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=lapce&perline=1" alt="lapce" width="48" height="48"></td>
+      <td align="center"><code>zededitor</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=zededitor&perline=1" alt="zededitor" width="48" height="48"></td>
+      <td align="center"><code>cursorai</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cursorai&perline=1" alt="cursorai" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>windsurfide</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=windsurfide&perline=1" alt="windsurfide" width="48" height="48"></td>
+      <td align="center"><code>jetbrainsfleet</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=jetbrainsfleet&perline=1" alt="jetbrainsfleet" width="48" height="48"></td>
+      <td align="center"><code>codeblocks</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=codeblocks&perline=1" alt="codeblocks" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>lapce</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=lapce&perline=1" alt="lapce" width="48" height="48"></td>
+      <td align="center"><code>helixeditor</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=helixeditor&perline=1" alt="helixeditor" width="48" height="48"></td>
       <td align="center"><code>microeditor</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=microeditor&perline=1" alt="microeditor" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>nanoeditor</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=nanoeditor&perline=1" alt="nanoeditor" width="48" height="48"></td>
       <td align="center"><code>notepadplusplus</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=notepadplusplus&perline=1" alt="notepadplusplus" width="48" height="48"></td>
       <td></td>
@@ -1548,24 +1660,32 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
 <table>
   <tbody>
     <tr>
+      <td align="center"><code>iterm</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=iterm&perline=1" alt="iterm" width="48" height="48"></td>
       <td align="center"><code>hyper</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hyper&perline=1" alt="hyper" width="48" height="48"></td>
       <td align="center"><code>alacritty</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=alacritty&perline=1" alt="alacritty" width="48" height="48"></td>
-      <td align="center"><code>tmux</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=tmux&perline=1" alt="tmux" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>tmux</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=tmux&perline=1" alt="tmux" width="48" height="48"></td>
+      <td align="center"><code>warpterminal</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=warpterminal&perline=1" alt="warpterminal" width="48" height="48"></td>
       <td align="center"><code>wezterm</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=wezterm&perline=1" alt="wezterm" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>zsh</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=zsh&perline=1" alt="zsh" width="48" height="48"></td>
       <td align="center"><code>fishshell</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=fishshell&perline=1" alt="fishshell" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>ohmyzsh</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=ohmyzsh&perline=1" alt="ohmyzsh" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>starshipprompt</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=starshipprompt&perline=1" alt="starshipprompt" width="48" height="48"></td>
       <td></td>
       <td></td>
       <td></td>
@@ -1597,66 +1717,74 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
     <tr>
       <td align="center"><code>nuget</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=nuget&perline=1" alt="nuget" width="48" height="48"></td>
+      <td align="center"><code>brew</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=brew&perline=1" alt="brew" width="48" height="48"></td>
       <td align="center"><code>chocolatey</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=chocolatey&perline=1" alt="chocolatey" width="48" height="48"></td>
-      <td align="center"><code>vite</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=vite&perline=1" alt="vite" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>vite</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=vite&perline=1" alt="vite" width="48" height="48"></td>
       <td align="center"><code>webpack</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=webpack&perline=1" alt="webpack" width="48" height="48"></td>
       <td align="center"><code>rollup</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=rollup&perline=1" alt="rollup" width="48" height="48"></td>
-      <td align="center"><code>parcel</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=parcel&perline=1" alt="parcel" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>parcel</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=parcel&perline=1" alt="parcel" width="48" height="48"></td>
       <td align="center"><code>esbuild</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=esbuild&perline=1" alt="esbuild" width="48" height="48"></td>
       <td align="center"><code>babel</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=babel&perline=1" alt="babel" width="48" height="48"></td>
-      <td align="center"><code>pypi</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=pypi&perline=1" alt="pypi" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>pypi</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=pypi&perline=1" alt="pypi" width="48" height="48"></td>
       <td align="center"><code>rubygems</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=rubygems&perline=1" alt="rubygems" width="48" height="48"></td>
       <td align="center"><code>packagist</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=packagist&perline=1" alt="packagist" width="48" height="48"></td>
-      <td align="center"><code>quay</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=quay&perline=1" alt="quay" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>quay</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=quay&perline=1" alt="quay" width="48" height="48"></td>
       <td align="center"><code>artifactory</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=artifactory&perline=1" alt="artifactory" width="48" height="48"></td>
       <td align="center"><code>verdaccio</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=verdaccio&perline=1" alt="verdaccio" width="48" height="48"></td>
-      <td align="center"><code>turbopack</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=turbopack&perline=1" alt="turbopack" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>turbopack</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=turbopack&perline=1" alt="turbopack" width="48" height="48"></td>
       <td align="center"><code>snowpack</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=snowpack&perline=1" alt="snowpack" width="48" height="48"></td>
       <td align="center"><code>grunt</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=grunt&perline=1" alt="grunt" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>gulp</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=gulp&perline=1" alt="gulp" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>bower</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bower&perline=1" alt="bower" width="48" height="48"></td>
-      <td align="center"><code>bazel</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bazel&perline=1" alt="bazel" width="48" height="48"></td>
-      <td align="center"><code>cmake</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cmake&perline=1" alt="cmake" width="48" height="48"></td>
+      <td align="center"><code>conda</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=conda&perline=1" alt="conda" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>poetrypython</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=poetrypython&perline=1" alt="poetrypython" width="48" height="48"></td>
+      <td align="center"><code>uvpython</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=uvpython&perline=1" alt="uvpython" width="48" height="48"></td>
+      <td align="center"><code>bazel</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bazel&perline=1" alt="bazel" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>cmake</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cmake&perline=1" alt="cmake" width="48" height="48"></td>
+      <td align="center"><code>maketool</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=maketool&perline=1" alt="maketool" width="48" height="48"></td>
       <td align="center"><code>nvm</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=nvm&perline=1" alt="nvm" width="48" height="48"></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -1726,30 +1854,38 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=stylelint&perline=1" alt="stylelint" width="48" height="48"></td>
       <td align="center"><code>junit</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=junit&perline=1" alt="junit" width="48" height="48"></td>
-      <td align="center"><code>rspec</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=rspec&perline=1" alt="rspec" width="48" height="48"></td>
+      <td align="center"><code>pytestframework</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=pytestframework&perline=1" alt="pytestframework" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>rspec</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=rspec&perline=1" alt="rspec" width="48" height="48"></td>
       <td align="center"><code>robotframework</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=robotframework&perline=1" alt="robotframework" width="48" height="48"></td>
       <td align="center"><code>cucumber</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cucumber&perline=1" alt="cucumber" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>webdriverio</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=webdriverio&perline=1" alt="webdriverio" width="48" height="48"></td>
-    </tr>
-    <tr>
+      <td align="center"><code>nightwatchjs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=nightwatchjs&perline=1" alt="nightwatchjs" width="48" height="48"></td>
       <td align="center"><code>rubocop</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=rubocop&perline=1" alt="rubocop" width="48" height="48"></td>
-      <td align="center"><code>mypy</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=mypy&perline=1" alt="mypy" width="48" height="48"></td>
-      <td align="center"><code>commitlint</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=commitlint&perline=1" alt="commitlint" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>mypy</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=mypy&perline=1" alt="mypy" width="48" height="48"></td>
+      <td align="center"><code>blackformatter</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=blackformatter&perline=1" alt="blackformatter" width="48" height="48"></td>
+      <td align="center"><code>rufflinter</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=rufflinter&perline=1" alt="rufflinter" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>commitlint</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=commitlint&perline=1" alt="commitlint" width="48" height="48"></td>
       <td align="center"><code>semanticrelease</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=semanticrelease&perline=1" alt="semanticrelease" width="48" height="48"></td>
-      <td></td>
-      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -1813,54 +1949,86 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=googlecolab&perline=1" alt="googlecolab" width="48" height="48"></td>
       <td align="center"><code>weightsandbiases</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=weightsandbiases&perline=1" alt="weightsandbiases" width="48" height="48"></td>
-      <td align="center"><code>nvidia</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=nvidia&perline=1" alt="nvidia" width="48" height="48"></td>
+      <td align="center"><code>wandb</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=wandb&perline=1" alt="wandb" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>nvidia</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=nvidia&perline=1" alt="nvidia" width="48" height="48"></td>
       <td align="center"><code>ollama</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=ollama&perline=1" alt="ollama" width="48" height="48"></td>
       <td align="center"><code>ray</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=ray&perline=1" alt="ray" width="48" height="48"></td>
-      <td align="center"><code>dask</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=dask&perline=1" alt="dask" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>dask</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=dask&perline=1" alt="dask" width="48" height="48"></td>
       <td align="center"><code>polars</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=polars&perline=1" alt="polars" width="48" height="48"></td>
       <td align="center"><code>matplotlib</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=matplotlib&perline=1" alt="matplotlib" width="48" height="48"></td>
-      <td align="center"><code>seaborn</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=seaborn&perline=1" alt="seaborn" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>seaborn</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=seaborn&perline=1" alt="seaborn" width="48" height="48"></td>
+      <td align="center"><code>mistralai</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=mistralai&perline=1" alt="mistralai" width="48" height="48"></td>
       <td align="center"><code>cohere</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cohere&perline=1" alt="cohere" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>googlegemini</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=googlegemini&perline=1" alt="googlegemini" width="48" height="48"></td>
+      <td align="center"><code>stabilityai</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=stabilityai&perline=1" alt="stabilityai" width="48" height="48"></td>
       <td align="center"><code>midjourney</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=midjourney&perline=1" alt="midjourney" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>runwayml</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=runwayml&perline=1" alt="runwayml" width="48" height="48"></td>
       <td align="center"><code>elevenlabs</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=elevenlabs&perline=1" alt="elevenlabs" width="48" height="48"></td>
-      <td align="center"><code>deepseek</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=deepseek&perline=1" alt="deepseek" width="48" height="48"></td>
-      <td align="center"><code>spacy</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=spacy&perline=1" alt="spacy" width="48" height="48"></td>
+      <td align="center"><code>perplexityai</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=perplexityai&perline=1" alt="perplexityai" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>xaigrok</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=xaigrok&perline=1" alt="xaigrok" width="48" height="48"></td>
+      <td align="center"><code>deepseek</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=deepseek&perline=1" alt="deepseek" width="48" height="48"></td>
+      <td align="center"><code>qwenai</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=qwenai&perline=1" alt="qwenai" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>spacy</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=spacy&perline=1" alt="spacy" width="48" height="48"></td>
       <td align="center"><code>xgboost</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=xgboost&perline=1" alt="xgboost" width="48" height="48"></td>
+      <td align="center"><code>onnxruntime</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=onnxruntime&perline=1" alt="onnxruntime" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>paddlepaddle</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=paddlepaddle&perline=1" alt="paddlepaddle" width="48" height="48"></td>
       <td align="center"><code>crewai</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=crewai&perline=1" alt="crewai" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>vllm</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=vllm&perline=1" alt="vllm" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>comfyui</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=comfyui&perline=1" alt="comfyui" width="48" height="48"></td>
+      <td align="center"><code>replicateai</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=replicateai&perline=1" alt="replicateai" width="48" height="48"></td>
+      <td align="center"><code>modallabs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=modallabs&perline=1" alt="modallabs" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>togetherai</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=togetherai&perline=1" alt="togetherai" width="48" height="48"></td>
+      <td></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -1880,52 +2048,76 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=metabase&perline=1" alt="metabase" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>superset</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=superset&perline=1" alt="superset" width="48" height="48"></td>
       <td align="center"><code>redash</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=redash&perline=1" alt="redash" width="48" height="48"></td>
       <td align="center"><code>spark</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=spark&perline=1" alt="spark" width="48" height="48"></td>
-      <td align="center"><code>hadoop</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hadoop&perline=1" alt="hadoop" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>hadoop</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hadoop&perline=1" alt="hadoop" width="48" height="48"></td>
+      <td align="center"><code>flink</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=flink&perline=1" alt="flink" width="48" height="48"></td>
       <td align="center"><code>airflow</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=airflow&perline=1" alt="airflow" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>dbt</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=dbt&perline=1" alt="dbt" width="48" height="48"></td>
       <td align="center"><code>snowflake</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=snowflake&perline=1" alt="snowflake" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>databricks</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=databricks&perline=1" alt="databricks" width="48" height="48"></td>
-      <td align="center"><code>apachenifi</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=apachenifi&perline=1" alt="apachenifi" width="48" height="48"></td>
-      <td align="center"><code>dagster</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=dagster&perline=1" alt="dagster" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>qlikview</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=qlikview&perline=1" alt="qlikview" width="48" height="48"></td>
+      <td align="center"><code>domobi</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=domobi&perline=1" alt="domobi" width="48" height="48"></td>
+      <td align="center"><code>apachenifi</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=apachenifi&perline=1" alt="apachenifi" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>dagster</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=dagster&perline=1" alt="dagster" width="48" height="48"></td>
+      <td align="center"><code>prefectio</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=prefectio&perline=1" alt="prefectio" width="48" height="48"></td>
       <td align="center"><code>airbyte</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=airbyte&perline=1" alt="airbyte" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>matillion</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=matillion&perline=1" alt="matillion" width="48" height="48"></td>
       <td align="center"><code>talend</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=talend&perline=1" alt="talend" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>informatica</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=informatica&perline=1" alt="informatica" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>alteryx</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=alteryx&perline=1" alt="alteryx" width="48" height="48"></td>
+      <td align="center"><code>spssibm</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=spssibm&perline=1" alt="spssibm" width="48" height="48"></td>
       <td align="center"><code>minitab</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=minitab&perline=1" alt="minitab" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>orangedatamining</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=orangedatamining&perline=1" alt="orangedatamining" width="48" height="48"></td>
       <td align="center"><code>knime</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=knime&perline=1" alt="knime" width="48" height="48"></td>
+      <td align="center"><code>lookerstudio</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=lookerstudio&perline=1" alt="lookerstudio" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>mixpanel</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=mixpanel&perline=1" alt="mixpanel" width="48" height="48"></td>
       <td align="center"><code>amplitude</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=amplitude&perline=1" alt="amplitude" width="48" height="48"></td>
+      <td align="center"><code>heapanalytics</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=heapanalytics&perline=1" alt="heapanalytics" width="48" height="48"></td>
     </tr>
     <tr>
       <td align="center"><code>hotjar</code></td>
@@ -1987,56 +2179,64 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=dashlane&perline=1" alt="dashlane" width="48" height="48"></td>
       <td align="center"><code>keeper</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=keeper&perline=1" alt="keeper" width="48" height="48"></td>
-      <td align="center"><code>checkmarx</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=checkmarx&perline=1" alt="checkmarx" width="48" height="48"></td>
+      <td align="center"><code>hashicorpvault</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hashicorpvault&perline=1" alt="hashicorpvault" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>sonarqubecloud</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=sonarqubecloud&perline=1" alt="sonarqubecloud" width="48" height="48"></td>
+      <td align="center"><code>checkmarx</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=checkmarx&perline=1" alt="checkmarx" width="48" height="48"></td>
       <td align="center"><code>nordvpn</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=nordvpn&perline=1" alt="nordvpn" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>protonvpn</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=protonvpn&perline=1" alt="protonvpn" width="48" height="48"></td>
       <td align="center"><code>expressvpn</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=expressvpn&perline=1" alt="expressvpn" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>surfshark</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=surfshark&perline=1" alt="surfshark" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>malwarebytes</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=malwarebytes&perline=1" alt="malwarebytes" width="48" height="48"></td>
       <td align="center"><code>kaspersky</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=kaspersky&perline=1" alt="kaspersky" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>norton</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=norton&perline=1" alt="norton" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>mcafee</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=mcafee&perline=1" alt="mcafee" width="48" height="48"></td>
       <td align="center"><code>bitdefender</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bitdefender&perline=1" alt="bitdefender" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>crowdstrike</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=crowdstrike&perline=1" alt="crowdstrike" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>paloaltonetworks</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=paloaltonetworks&perline=1" alt="paloaltonetworks" width="48" height="48"></td>
       <td align="center"><code>fortinet</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=fortinet&perline=1" alt="fortinet" width="48" height="48"></td>
+      <td align="center"><code>pingidentity</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=pingidentity&perline=1" alt="pingidentity" width="48" height="48"></td>
     </tr>
     <tr>
       <td align="center"><code>onelogin</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=onelogin&perline=1" alt="onelogin" width="48" height="48"></td>
+      <td align="center"><code>teleportsecurity</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=teleportsecurity&perline=1" alt="teleportsecurity" width="48" height="48"></td>
       <td align="center"><code>googleauthenticator</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=googleauthenticator&perline=1" alt="googleauthenticator" width="48" height="48"></td>
-      <td align="center"><code>authy</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=authy&perline=1" alt="authy" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>authy</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=authy&perline=1" alt="authy" width="48" height="48"></td>
       <td align="center"><code>qualys</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=qualys&perline=1" alt="qualys" width="48" height="48"></td>
       <td align="center"><code>hashcat</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=hashcat&perline=1" alt="hashcat" width="48" height="48"></td>
-      <td></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -2056,14 +2256,22 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
     <tr>
       <td align="center"><code>gamemaker</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=gamemaker&perline=1" alt="gamemaker" width="48" height="48"></td>
+      <td align="center"><code>construct</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=construct&perline=1" alt="construct" width="48" height="48"></td>
       <td align="center"><code>bevy</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bevy&perline=1" alt="bevy" width="48" height="48"></td>
-      <td align="center"><code>raylib</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=raylib&perline=1" alt="raylib" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>raylib</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=raylib&perline=1" alt="raylib" width="48" height="48"></td>
       <td align="center"><code>love2d</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=love2d&perline=1" alt="love2d" width="48" height="48"></td>
+      <td align="center"><code>cocos2d</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cocos2d&perline=1" alt="cocos2d" width="48" height="48"></td>
+    </tr>
+    <tr>
+      <td align="center"><code>phaserjs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=phaserjs&perline=1" alt="phaserjs" width="48" height="48"></td>
       <td align="center"><code>cryengine</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=cryengine&perline=1" alt="cryengine" width="48" height="48"></td>
       <td align="center"><code>sourceengine</code></td>
@@ -2129,14 +2337,14 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=processwire&perline=1" alt="processwire" width="48" height="48"></td>
       <td align="center"><code>craftcms</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=craftcms&perline=1" alt="craftcms" width="48" height="48"></td>
-      <td align="center"><code>carrd</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=carrd&perline=1" alt="carrd" width="48" height="48"></td>
+      <td align="center"><code>builderio</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=builderio&perline=1" alt="builderio" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>carrd</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=carrd&perline=1" alt="carrd" width="48" height="48"></td>
       <td align="center"><code>elementor</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=elementor&perline=1" alt="elementor" width="48" height="48"></td>
-      <td></td>
-      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -2160,14 +2368,14 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=bigcommerce&perline=1" alt="bigcommerce" width="48" height="48"></td>
       <td align="center"><code>prestashop</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=prestashop&perline=1" alt="prestashop" width="48" height="48"></td>
-      <td align="center"><code>shopware</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=shopware&perline=1" alt="shopware" width="48" height="48"></td>
+      <td align="center"><code>medusajs</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=medusajs&perline=1" alt="medusajs" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>shopware</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=shopware&perline=1" alt="shopware" width="48" height="48"></td>
       <td align="center"><code>gumroad</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=gumroad&perline=1" alt="gumroad" width="48" height="48"></td>
-      <td></td>
-      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -2251,12 +2459,20 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=deepin&perline=1" alt="deepin" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>solusos</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=solusos&perline=1" alt="solusos" width="48" height="48"></td>
       <td align="center"><code>qubesos</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=qubesos&perline=1" alt="qubesos" width="48" height="48"></td>
+      <td align="center"><code>tailsos</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=tailsos&perline=1" alt="tailsos" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>openbsd</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=openbsd&perline=1" alt="openbsd" width="48" height="48"></td>
       <td align="center"><code>netbsd</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=netbsd&perline=1" alt="netbsd" width="48" height="48"></td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -2326,24 +2542,24 @@ Total icons: **887**. Use the `id` shown next to each icon in your API call, e.g
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=ton&perline=1" alt="ton" width="48" height="48"></td>
       <td align="center"><code>optimism</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=optimism&perline=1" alt="optimism" width="48" height="48"></td>
-      <td align="center"><code>litecoin</code></td>
-      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=litecoin&perline=1" alt="litecoin" width="48" height="48"></td>
+      <td align="center"><code>basechain</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=basechain&perline=1" alt="basechain" width="48" height="48"></td>
     </tr>
     <tr>
+      <td align="center"><code>suinetwork</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=suinetwork&perline=1" alt="suinetwork" width="48" height="48"></td>
+      <td align="center"><code>litecoin</code></td>
+      <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=litecoin&perline=1" alt="litecoin" width="48" height="48"></td>
       <td align="center"><code>dogecoin</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=dogecoin&perline=1" alt="dogecoin" width="48" height="48"></td>
+    </tr>
+    <tr>
       <td align="center"><code>monero</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=monero&perline=1" alt="monero" width="48" height="48"></td>
       <td align="center"><code>walletconnect</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=walletconnect&perline=1" alt="walletconnect" width="48" height="48"></td>
-    </tr>
-    <tr>
       <td align="center"><code>thirdweb</code></td>
       <td align="center"><img src="https://charmly.amrelmahdy001-b28.workers.dev/icons?i=thirdweb&perline=1" alt="thirdweb" width="48" height="48"></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
